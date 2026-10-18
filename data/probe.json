@@ -1,0 +1,66 @@
+{
+ "nasdaq_screener": {
+  "ok": true,
+  "status": 200,
+  "bytes": 2194012,
+  "sn": 1.3,
+  "ornek": "{\"data\":{\"asOf\":null,\"headers\":{\"symbol\":\"Symbol\",\"name\":\"Name\",\"lastsale\":\"Last Sale\",\"netchange\":\"Net Change\",\"pctchange\":\"% Change\",\"marketCap\":\"Market Cap\",\"country\":\"Country\",\"ipoyear\":\"IPO Year\",\"volume\":\"Volume\",\"sector\":\"Sector\",\"industry\":\"Industry\",\"url\":\"Url\"},\"rows\":[{\"symbol\":\"A\",\"name\":\"Agilent Technologies Inc. Common Stock\",\"lastsale\":\"$175.55\",\"netchange\":\"1.55\",\"pctchange\":\"0.891%\",\"volume\":\"1893887\",\"marketCap\":\"49492610320.00\",\"country\":\"United States\",\"ipoyear\":\"1999\",\"industry\":\"Biotechnology: Laboratory Analytical Instruments\",\"sector\":\"Industrials\",\"url\":\"/market-activity/stocks/a\"},{\"symbol\":\"AA\",\"name\":\"Alcoa Corporation Common Stock \",\"lastsale\":\"$40.42\",\"netchange\":\"0.34\",\"pctchange\":\"0.848%\",\"volume\":\"8156332\",\"marketCap\":\"10667219767.00\",\"country\":\"United States\",\"ipoyear\":\"2016\",\"industry\":\"Aluminum\",\"sector\":\"Industrials\",\"url\":\"/market-activity/stocks/aa\"},{\"symbol\":\"AAC\",\"name\":\"Ares Acquisition Corporation III Class A Ordinary Shares\",\"lastsale\":\"$10.00\",\"netchange\":\"0.02\",\"pctchange\":\"0.20%\",\"volume\":\"4630\",\"marketCap\":\"494187500.00\",\"country\":\"\",\"ipoyear\":\"2026\",\"industry\":\"Metal Fabrications\",\"sector\":\"Industrials\",\"url\":\"/market-activity/stocks/aac\"},{\"symbol\":\"AACG\",\"name\":\"ATA Creativity Global American Depositary Shares\",\"lastsale\":\"$0.633\",\"netchange\":\"-0.057\",\"pctchange\":\"-8.261%\",\"volume\":\"2287\",\"marketCap\":\"43337725.00\",\"country\":\"China\",\"ipoyear\":\"2008\",\"industry\":\"Other Consumer Services\",\"sector\":\"Real Estate\",\"url\":\"/market-ac"
+ },
+ "nasdaq_target": {
+  "ok": true,
+  "status": 200,
+  "bytes": 1758,
+  "sn": 3.5,
+  "ornek": "{\"data\":{\"symbol\":\"mu\",\"consensusOverview\":{\"lowPriceTarget\":1200.0,\"highPriceTarget\":3000.0,\"priceTarget\":1621.67,\"buy\":26,\"sell\":0,\"hold\":1},\"historicalConsensus\":[{\"z\":{\"buy\":24,\"hold\":3,\"sell\":0,\"date\":\"10/01/2025\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1759276800,\"y\":182.15},{\"z\":{\"buy\":24,\"hold\":3,\"sell\":0,\"date\":\"11/01/2025\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1761955200,\"y\":223.77},{\"z\":{\"buy\":24,\"hold\":3,\"sell\":0,\"date\":\"12/01/2025\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1764547200,\"y\":240.46},{\"z\":{\"buy\":25,\"hold\":2,\"sell\":0,\"date\":\"01/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1767225600,\"y\":285.41},{\"z\":{\"buy\":27,\"hold\":2,\"sell\":0,\"date\":\"02/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1769904000,\"y\":414.88},{\"z\":{\"buy\":27,\"hold\":1,\"sell\":0,\"date\":\"03/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1772323200,\"y\":412.37},{\"z\":{\"buy\":26,\"hold\":3,\"sell\":0,\"date\":\"04/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1775001600,\"y\":367.85},{\"z\":{\"buy\":27,\"hold\":3,\"sell\":0,\"date\":\"05/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1777593600,\"y\":542.21},{\"z\":{\"buy\":26,\"hold\":3,\"sell\":0,\"date\":\"06/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1780272000,\"y\":1035.5},{\"z\":{\"buy\":29,\"hold\":1,\"sell\":0,\"date\":\"07/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1782864000,\"y\":1032.28},{\"z\":{\"buy\":29,\"hold\":1,\"sell\":0,\"date\":\"08/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":1785542400,\"y\":823.03},{\"z\":{\"buy\":30,\"hold\":1,\"sell\":0,\"date\":\"09/01/2026\",\"consensus\":\"Buy\",\"latest\":null},\"x\":"
+ },
+ "nasdaq_ratings": {
+  "ok": true,
+  "status": 200,
+  "bytes": 704,
+  "sn": 1.3,
+  "ornek": "{\"data\":{\"symbol\":\"mu\",\"meanRatingType\":\"Buy\",\"ratingsSummary\":\"Based on 29 analysts offering recommendations for 'MU'.\",\"upgradesDowngrades\":[],\"brokerNames\":[\"B OF A GLBL RES\",\"BAIRD R W\",\"BARCLAYS CAPITA\",\"BMO CAPITAL MKT\",\"CANTOR FITZGERA\",\"CITIGROUP\",\"CO FORECST\",\"DBS BANK\",\"EVERCORE ISI\",\"GOLDMAN SACHS\",\"JP MORGAN SECUR\",\"KEYBANC CAP MKT\",\"MIZUHO SECURITI\",\"MORGAN STANLEY\",\"NEEDHAM & CO.\",\"NEW STREET RESE\",\"PIPER SANDLER\",\"RAYMOND JAMES\",\"ROSENBLATT SEC\",\"SANFORD BERNSTE\",\"STIFEL NICOLAUS\",\"SUMMIT INSIGHTS\",\"SUSQUEHANNA\",\"TD COWEN\",\"UBS\",\"WEDBUSH SECURIT\",\"WELLS FARGO SEC\",\"WOLFE RESEARCH\",\"ZACKS RESEARCH\"]},\"message\":null,\"status\":{\"rCode\":200,\"bCodeMessage\":null,\"developerMessage\":null}}"
+ },
+ "nasdaq_summary": {
+  "ok": true,
+  "status": 200,
+  "bytes": 1135,
+  "sn": 1.2,
+  "ornek": "{\"data\":{\"symbol\":\"MU\",\"summaryData\":{\"Exchange\":{\"label\":\"Exchange\",\"value\":\"NASDAQ-GS\"},\"Sector\":{\"label\":\"Sector\",\"value\":\"Technology\"},\"Industry\":{\"label\":\"Industry\",\"value\":\"Semiconductors\"},\"OneYrTarget\":{\"label\":\"1 Year Target\",\"value\":\"$1,500.00\"},\"TodayHighLow\":{\"label\":\"Today's High/Low\",\"value\":\"N/A\"},\"ShareVolume\":{\"label\":\"Share Volume\",\"value\":\"30,515,800\"},\"AverageVolume\":{\"label\":\"Average Volume\",\"value\":\"26,723,226\"},\"PreviousClose\":{\"label\":\"Previous Close\",\"value\":\"$931.24\"},\"FiftTwoWeekHighLow\":{\"label\":\"52 Week High/Low\",\"value\":\"$1255/$192.4\"},\"MarketCap\":{\"label\":\"Market Cap\",\"value\":\"994,339,975,634\"},\"AnnualizedDividend\":{\"label\":\"Annualized Dividend\",\"value\":\"$0.60\"},\"ExDividendDate\":{\"label\":\"Ex Dividend Date\",\"value\":\"Oct 14, 2026\"},\"DividendPaymentDate\":{\"label\":\"Dividend Pay Date\",\"value\":\"Oct 29, 2026\"},\"Yield\":{\"label\":\"Current Yield\",\"value\":\"0.06%\"}},\"assetClass\":\"STOCKS\",\"additionalData\":null,\"bidAsk\":{\"Bid * Size\":{\"label\":\"Bid * Size\",\"value\":\"N/A\"},\"Ask * Size\":{\"label\":\"Ask * Size\",\"value\":\"N/A\"}}},\"message\":null,\"status\":{\"rCode\":200,\"bCodeMessage\":null,\"developerMessage\":null}}"
+ },
+ "nasdaq_ndx_list": {
+  "ok": true,
+  "status": 200,
+  "bytes": 21563,
+  "sn": 1.1,
+  "ornek": "{\"data\":{\"totalrecords\":101,\"limit\":101,\"offset\":0,\"date\":\"Oct 15, 2026\",\"data\":{\"asOf\":null,\"headers\":{\"symbol\":\"Symbol\",\"companyName\":\"Name\",\"marketCap\":\"Market Cap\",\"lastSalePrice\":\"Last Sale\",\"netChange\":\"Net Change\",\"percentageChange\":\"Percentage Change\"},\"rows\":[{\"symbol\":\"AAPL\",\"sector\":\"\",\"companyName\":\"Apple Inc. Common Stock\",\"marketCap\":\"5,012,517,062,800\",\"lastSalePrice\":\"$343.46\",\"netChange\":\"$1.46\",\"percentageChange\":\"+0.43%\",\"deltaIndicator\":\"up\"},{\"symbol\":\"AMAT\",\"sector\":\"\",\"companyName\":\"Applied Materials, Inc. Common Stock\",\"marketCap\":\"324,811,497,445\",\"lastSalePrice\":\"$409.29\",\"netChange\":\"$20.72\",\"percentageChange\":\"-4.82%\",\"deltaIndicator\":\"down\"},{\"symbol\":\"AMGN\",\"sector\":\"\",\"companyName\":\"Amgen Inc. Common Stock\",\"marketCap\":\"233,817,935,842\",\"lastSalePrice\":\"$432."
+ },
+ "sp500_csv": {
+  "ok": true,
+  "status": 200,
+  "bytes": 53620,
+  "sn": 0.1,
+  "ornek": "Symbol,Security,GICS Sector,GICS Sub-Industry,Headquarters Location,Date added,CIK,Founded\nMMM,3M,Industrials,Industrial Conglomerates,\"Saint Paul, Minnesota\",1957-03-04,66740,1902\nAOS,A. O. Smith,Industrials,Building Products,\"Milwaukee, Wisconsin\",2017-07-26,91142,1916\nABT,Abbott Laboratories,Heal"
+ },
+ "iwm_holdings": {
+  "ok": true,
+  "status": 200,
+  "bytes": 1513186,
+  "sn": 0.9,
+  "ornek": "<!DOCTYPE html>\n<html xmlns=\"http://www.w3.org/1999/xhtml\" prefix=\"og: http://ogp.me/ns#\" lang=\"en-US\" xml:lang=\"en-US\">\n<head>\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-5b9fb124fde47901b87423ed48184673.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-463c2fcc242a9e5a71cc8388ad3b34d5.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-eb1937a2b02b9427f0b7e1231000778c.css\" as=\"style\" />\n<link rel=\"preload\" href=\"/blk-one02-c-assets/include/bundles/minified-fefef83dea0aed96a9147381126acf31"
+ },
+ "tefas_history": {
+  "ok": false,
+  "hata": "HTTP Error 404: Not Found"
+ },
+ "tefas_main": {
+  "ok": true,
+  "status": 200,
+  "bytes": 6830,
+  "sn": 1.2,
+  "ornek": "<!DOCTYPE html>\r\n<html><head>\r\n<meta http-equiv=\"Pragma\" content=\"no-cache\"/>\r\n<meta http-equiv=\"Expires\" content=\"-1\"/>\r\n<meta http-equiv=\"CacheControl\" content=\"no-cache\"/>\r\n<meta http-equiv=\"Conten"
+ },
+ "fundturkey": {
+  "ok": false,
+  "hata": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.fundturkey.com.tr'. (_ssl.c:1010)>"
+ }
+}
