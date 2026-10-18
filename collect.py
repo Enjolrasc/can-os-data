@@ -177,9 +177,80 @@ def from_ecb(sym):
     return {"rows": rows, "price": rows[-1][1], "time": None, "currency": quote, "source": "ecb"}
 
 
+
+NASDAQ_INDEX = {"^GSPC": "SPX", "^IXIC": "COMP", "^NDX": "NDX", "^RUT": "RUT", "^DJI": "INDU", "^VIX": "VIX"}
+NASDAQ_COMMODITY = {"GC=F": "GC:CMX", "SI=F": "SI:CMX", "PL=F": "PL:NMX", "PA=F": "PA:NMX", "BZ=F": "BZ:NMX",
+                    "CL=F": "CL:NMX", "HO=F": "HO:NMX", "NG=F": "NG:NMX", "HG=F": "HG:CMX", "ALI=F": "ALI:CMX",
+                    "ZW=F": "ZW:CBT", "ZC=F": "ZC:CBT", "ZS=F": "ZS:CBT", "KC=F": "KC:NYB", "CC=F": "CC:NYB",
+                    "SB=F": "SB:NYB", "CT=F": "CT:NYB", "TTF=F": "TFM:IEU"}
+# Doğrudan fiyat bulunamazsa, aynı varlığı izleyen ETF'in getirileri "vekil" olarak kullanılır (fiyat seviyesi değil, % değişim).
+PROXY_ETF = {"^GSPC": "SPY", "^IXIC": "QQQ", "^NDX": "QQQ", "^RUT": "IWM", "^DJI": "DIA", "^VIX": "VIXY",
+             "GC=F": "GLD", "SI=F": "SLV", "PL=F": "PPLT", "PA=F": "PALL", "BZ=F": "BNO", "CL=F": "USO",
+             "NG=F": "UNG", "HG=F": "CPER", "ZW=F": "WEAT", "ZC=F": "CORN", "ZS=F": "SOYB", "SB=F": "CANE"}
+
+
+def _nasdaq_hist(code, cls):
+    end = datetime.now(TR).date()
+    start = end - timedelta(days=375)
+    hdr = {"Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+    raw = http_get(f"https://api.nasdaq.com/api/quote/{urllib.parse.quote(code)}/historical?assetclass={cls}&fromdate={start}&todate={end}&limit=400", headers=hdr)
+    rows_raw = ((json.loads(raw).get("data") or {}).get("tradesTable") or {}).get("rows") or []
+    rows = []
+    for r in rows_raw:
+        try:
+            rows.append((datetime.strptime(r["date"], "%m/%d/%Y").date(), float(str(r.get("close") or r.get("value")).replace("$", "").replace(",", ""))))
+        except (KeyError, ValueError, TypeError):
+            continue
+    rows.sort()
+    return rows
+
+
+def from_nasdaq_special(sym):
+    """Nasdaq.com: endeksler ve vadeli emtialar."""
+    if sym in NASDAQ_INDEX:
+        code, cls = NASDAQ_INDEX[sym], "index"
+    elif sym in NASDAQ_COMMODITY:
+        code, cls = NASDAQ_COMMODITY[sym], "commodities"
+    else:
+        raise RuntimeError("nasdaq: desteklenmeyen sembol")
+    rows = _nasdaq_hist(code, cls)
+    if not rows:
+        raise RuntimeError("nasdaq: boş veri")
+    return {"rows": rows, "price": rows[-1][1], "time": None, "currency": "USD", "source": "nasdaq"}
+
+
+def from_proxy(sym):
+    if sym not in PROXY_ETF:
+        raise RuntimeError("vekil: desteklenmeyen sembol")
+    d = from_nasdaq(PROXY_ETF[sym])
+    d["source"] = "vekil:" + PROXY_ETF[sym]
+    return d
+
+
+def from_dxy(sym):
+    """Dolar endeksi (DXY), ICE formülüyle ECB kurlarından hesaplanır."""
+    if sym != "DX-Y.NYB":
+        raise RuntimeError("dxy: desteklenmeyen sembol")
+    end = datetime.now(TR).date()
+    start = end - timedelta(days=375)
+    rates = json.loads(http_get(f"https://api.frankfurter.app/{start}..{end}?from=USD&to=EUR,JPY,GBP,CAD,SEK,CHF"))["rates"]
+    rows = []
+    for dt, r in rates.items():
+        try:
+            v = (50.14348112 * (1 / r["EUR"]) ** -0.576 * r["JPY"] ** 0.136 * (1 / r["GBP"]) ** -0.119
+                 * r["CAD"] ** 0.091 * r["SEK"] ** 0.042 * r["CHF"] ** 0.036)
+            rows.append((datetime.strptime(dt, "%Y-%m-%d").date(), v))
+        except (KeyError, ZeroDivisionError):
+            continue
+    rows.sort()
+    if not rows:
+        raise RuntimeError("dxy: boş veri")
+    return {"rows": rows, "price": rows[-1][1], "time": None, "currency": None, "source": "ecb-hesap"}
+
+
 def fetch(sym):
     errors = []
-    for fn in (from_yahoo, from_nasdaq, from_stooq, from_ecb):
+    for fn in (from_yahoo, from_nasdaq_special, from_nasdaq, from_stooq, from_ecb, from_dxy, from_proxy):
         try:
             return fn(sym)
         except Exception as e:  # noqa: BLE001
@@ -200,8 +271,12 @@ def pct(a, b):
 def metrics(d):
     rows, price = d["rows"], d["price"]
     today = (d["time"] or datetime.now(TR)).date()
-    # Son satır bugünün (henüz kapanmamış) mumu ise önceki kapanışı ondan bir önceki satır verir.
-    hist = rows[:-1] if rows and rows[-1][0] >= today and len(rows) > 1 else rows
+    if d["time"] is None and len(rows) > 1:
+        # Anlık fiyat yok: fiyat = son kapanış; getiriler bir önceki kapanışa göre hesaplanır.
+        hist = rows[:-1]
+    else:
+        # Son satır bugünün (henüz kapanmamış) mumu ise önceki kapanışı ondan bir önceki satır verir.
+        hist = rows[:-1] if rows and rows[-1][0] >= today and len(rows) > 1 else rows
     closes = [c for _, c in hist]
 
     def back(n):
