@@ -149,6 +149,10 @@ def main():
     except Exception:
         U = None
     UH = (U or {}).get('hisse', {})
+    # Nasdaq toplu listesi geriden geliyorsa (eski=True) fiyat/genişlik verisini yazma; yalnızca analist hedefleri kullanılır.
+    U_STALE = bool(U and U.get('eski'))
+    if U_STALE:
+        UH = {k: {kk: vv for kk, vv in v.items() if kk in ('hedef', 'puan', 'analist')} for k, v in UH.items()}
     for sym, x in UH.items():
         if sym not in flat and x.get('p'):
             flat[sym] = {'fiyat': x['p'], 'gun': x['d'] or 0.0, 'kaynak': 'nasdaq-screener'}
@@ -203,7 +207,7 @@ def main():
                     line2 = re.sub(r"d: -?[0-9.]+", f"d: {x['gun']:.2f}", line2, count=1)
                     if lab in MK_SUB:
                         line2 = re.sub(r"sub: '[^']*'", f"sub: '{MK_SUB[lab]}'", line2, count=1)
-                    E = (U or {}).get('endeks', {}).get(MK_IDX[lab])
+                    E = None if U_STALE else (U or {}).get('endeks', {}).get(MK_IDX[lab])
                     if E and E.get('top'):
                         up = [[a, cut(b), c] for a, b, c in E['top'][:3]]
                         dn = [[a, cut(b), c] for a, b, c in E['bot'][:3]]
@@ -276,7 +280,7 @@ def main():
             lines[i] = f"{ind}{{ l: '{lab}', v: '{verdict}', f: [{body2}],"
             continue
 
-    if U:
+    if U and not U_STALE:
         # ---- MKD (ABD kayıtları: 3., 4., 5.)
         try:
             a = next(i for i, l in enumerate(lines) if l.strip().startswith('const MKD = ['))
@@ -354,7 +358,7 @@ def main():
         'endeksler': rep['mk'],
         'radar_abd': len(rep['rdu']),
         'radar_abd_hedef': rep_u['rdu_hedef'],
-        'abd_piyasa_detayi': rep_u['mkd'] or 'us_market.json yok/eski — Barchart ile yap',
+        'abd_piyasa_detayi': rep_u['mkd'] or ('Nasdaq listesi geriden geliyor (' + str((U or {}).get('tazelik')) + ') — MK hisseleri, MKD ve SEC_US sayılarını Barchart ile yap' if U_STALE else 'us_market.json yok/eski — Barchart ile yap'),
         'abd_sektor_guncellenen': rep_u['sektor'],
         'ulke_etf': rep['etf'],
         'tema_etf': rep['usf'],

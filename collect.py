@@ -361,7 +361,8 @@ def main():
 
     jobs = []
     for group, items in cfg.items():
-        if group.startswith("_") or group == "alarm_esikleri":
+        # Yalnızca fiyat grupları; diğer ayarlar (abd_sektor, portfoy_abd ...) us_market.py içindir.
+        if group not in ("doviz", "emtia", "endeks", "abd_hisse", "ulke_etf", "tema_etf"):
             continue
         names = items if isinstance(items, dict) else {s: s for s in items}
         data[group] = {}

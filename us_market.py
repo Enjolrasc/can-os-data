@@ -94,9 +94,49 @@ def screener():
     return out
 
 
+NDX_DATE = {}
+
+
 def ndx_list():
     raw = json.loads(get("https://api.nasdaq.com/api/quote/list-type/nasdaq100"))
+    NDX_DATE["d"] = raw["data"].get("date")
     return [key(r["symbol"]) for r in raw["data"]["data"]["rows"]]
+
+
+def expected_session(ny):
+    """Son tamamlanmış ABD işlem gününün tarihi."""
+    from datetime import timedelta
+    d = ny.date()
+    if ny.weekday() >= 5 or ny.hour < 16:
+        d -= timedelta(days=1)
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d
+
+
+def freshness(sc, ny):
+    """Nasdaq toplu listesi bazen bir gün geriden gelir: tarih ve fiyat kontrolü."""
+    exp = expected_session(ny)
+    nd = None
+    try:
+        nd = datetime.strptime(NDX_DATE.get("d") or "", "%b %d, %Y").date()
+    except ValueError:
+        pass
+    diffs = []
+    try:
+        L = json.load(open(os.path.join(DATA, "latest.json"), encoding="utf-8"))["veriler"]
+        for g in ("abd_hisse", "ulke_etf"):
+            for sym, x in L.get(g, {}).items():
+                y = sc.get(key(sym))
+                if y and y["p"] and x.get("fiyat"):
+                    diffs.append(abs(y["p"] / x["fiyat"] - 1) * 100)
+    except Exception:
+        pass
+    diffs.sort()
+    med = diffs[len(diffs) // 2] if diffs else None
+    stale = (nd is not None and nd < exp) or (med is not None and med > 0.3)
+    return {"beklenen": exp.isoformat(), "liste_tarihi": nd.isoformat() if nd else None,
+            "fiyat_farki_medyan_yuzde": round(med, 3) if med is not None else None, "eski": bool(stale)}
 
 
 def sp500_list():
@@ -185,6 +225,8 @@ def main():
         print("Nasdaq-100 listesi alınamadı:", e)
         ndx = []
     r2k = r2k_approx(sc)
+    fr = freshness(sc, ny)
+    print("tazelik:", fr)
     portfolio = S.get("portfoy_abd", [])
 
     try:
@@ -197,7 +239,7 @@ def main():
         "ndx": breadth("ndx", ndx, sc, portfolio, volhist, ref_day),
         "r2k": breadth("r2k", r2k, sc, portfolio, volhist, ref_day),
     }
-    if day and ny.weekday() < 5:
+    if day and ny.weekday() < 5 and not fr["eski"]:
         volhist[day] = {k: v["vol_usd"] for k, v in idx.items()}
         volhist = dict(sorted(volhist.items())[-40:])
         json.dump(volhist, open(VOLH, "w"), indent=0)
@@ -249,6 +291,8 @@ def main():
         "guncelleme": now.astimezone(TR).strftime("%d.%m.%Y %H:%M (TSİ)"),
         "guncelleme_iso": now.astimezone(TR).isoformat(timespec="seconds"),
         "kapanis_sonrasi": bool(day),
+        "tazelik": fr,
+        "eski": fr["eski"],
         "hedef_zamani": tg.get("zaman"),
         "endeks": idx,
         "sektor": sectors,
