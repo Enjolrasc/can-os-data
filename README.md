@@ -8,7 +8,9 @@ Yapay zekâ kullanmaz, token harcamaz; GitHub'ın kendi sunucularında, bilgisay
 1. **`symbols.json`** — izlenen semboller listesi (döviz, emtia, endeks, ABD hisseleri, ülke ve tema ETF'leri) ve gece bekçisinin alarm eşikleri.
 2. **`collect.py`** — fiyatları ücretsiz kaynaklardan çeken program (Nasdaq, Yahoo, Stooq; dövizde Avrupa Merkez Bankası; bazı emtia ve endekslerde ETF vekilleri).
 3. **`apply.py`** — Claude'un gece güncellemesinde çalıştırdığı yardımcı: `latest.json`'daki ABD fiyatlarını, ülke/tema ETF getirilerini ve ABD endekslerini panoya kendisi yazar. Claude bu sayıları elle düzenlemediği için token harcanmaz.
-4. **`.github/workflows/collect.yml`** — zamanlayıcı:
+4. **`us_market.py`** — ABD piyasa detayı: endeks genişliği, en çok yükselen/düşen hisseler, sektör haritası ve analist hedef fiyatları (Nasdaq).
+5. **`gece_gorevi.md`** — Claude'un her gece uyguladığı talimat. Görevi değiştirmek için bu dosyayı düzenlemek yeterli.
+6. **`.github/workflows/collect.yml`** — zamanlayıcı:
    - hafta içi 10:00–23:30 (TSİ) arası her 30 dakikada bir,
    - geceleri 00:00–08:00 arası 2 saatte bir (gece bekçisi).
 
