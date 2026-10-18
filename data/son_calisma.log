@@ -1,30 +1,9 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-19.10.2026 00:25 · 189 sembol alındı · kaynaklar: {'ecb': 6, 'nasdaq': 183} · başarısız: 27
-  ! DX-Y.NYB: yahoo: HTTP Error 429: Too Many Requests
-  ! GC=F: yahoo: HTTP Error 429: Too Many Requests
-  ! SI=F: yahoo: HTTP Error 429: Too Many Requests
-  ! PL=F: yahoo: HTTP Error 429: Too Many Requests
-  ! PA=F: kaynak yok
-  ! BZ=F: kaynak yok
-  ! CL=F: kaynak yok
-  ! HO=F: kaynak yok
-  ! NG=F: kaynak yok
-  ! TTF=F: kaynak yok
-  ! HG=F: kaynak yok
-  ! ALI=F: kaynak yok
-  ! ZW=F: kaynak yok
-  ! ZC=F: kaynak yok
-  ! ZS=F: kaynak yok
-  ! KC=F: kaynak yok
-  ! CC=F: kaynak yok
-  ! SB=F: kaynak yok
-  ! CT=F: kaynak yok
-  ! ^GSPC: kaynak yok
-  ! ^IXIC: kaynak yok
-  ! ^NDX: kaynak yok
-  ! ^RUT: kaynak yok
-  ! ^DJI: kaynak yok
-  ! ^VIX: kaynak yok
-  ! XU100.IS: kaynak yok
-  ! XU030.IS: kaynak yok
+19.10.2026 00:29 · 208 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 6
+  ! HO=F: nasdaq: boş veri
+  ! TTF=F: nasdaq: boş veri
+  ! ALI=F: nasdaq: boş veri
+  ! KC=F: nasdaq: boş veri
+  ! CC=F: nasdaq: boş veri
+  ! CT=F: nasdaq: boş veri
