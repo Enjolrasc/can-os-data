@@ -1,7 +1,7 @@
 [
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
@@ -11,7 +11,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
@@ -21,7 +21,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -31,7 +31,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "endeks",
   "sembol": "^NDX",
   "ad": "Nasdaq-100",
@@ -41,7 +41,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -51,7 +51,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "ulke_etf",
   "sembol": "EIDO",
   "ad": "EIDO",
@@ -61,7 +61,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "tema_etf",
   "sembol": "CHAT",
   "ad": "CHAT",
@@ -71,7 +71,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "tema_etf",
   "sembol": "PSI",
   "ad": "PSI",
@@ -81,7 +81,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -91,7 +91,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -101,7 +101,7 @@
  },
  {
   "gun_tarihi": "2026-10-19",
-  "zaman": "19.10.2026 01:51",
+  "zaman": "19.10.2026 02:04",
   "grup": "tema_etf",
   "sembol": "BITQ",
   "ad": "BITQ",
