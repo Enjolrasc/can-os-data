@@ -22,6 +22,7 @@ import io
 import json
 import os
 import time
+from concurrent.futures import ThreadPoolExecutor
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -32,7 +33,7 @@ TR = timezone(timedelta(hours=3))
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
-def http_get(url, timeout=20):
+def http_get(url, timeout=10):
     req = urllib.request.Request(url, headers=UA)
     with urllib.request.urlopen(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
@@ -170,22 +171,33 @@ def main():
     now = datetime.now(TR)
     data, failed, by_source = {}, {}, {}
 
+    jobs = []
     for group, items in cfg.items():
         if group.startswith("_") or group == "alarm_esikleri":
             continue
         names = items if isinstance(items, dict) else {s: s for s in items}
         data[group] = {}
         for sym, name in names.items():
-            if sym.startswith("_"):
-                continue
-            try:
-                m = metrics(fetch(sym))
-                m["ad"] = name
+            if not sym.startswith("_"):
+                jobs.append((group, sym, name))
+
+    def work(job):
+        group, sym, name = job
+        try:
+            m = metrics(fetch(sym))
+            m["ad"] = name
+            return group, sym, m, None
+        except Exception as e:  # noqa: BLE001
+            return group, sym, None, str(e)[:200]
+
+    # 6 paralel istek: hızlı ama kaynakları yormayacak kadar.
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        for group, sym, m, err in pool.map(work, jobs):
+            if m:
                 data[group][sym] = m
                 by_source[m["kaynak"]] = by_source.get(m["kaynak"], 0) + 1
-            except Exception as e:  # noqa: BLE001
-                failed[sym] = str(e)[:200]
-            time.sleep(0.25)  # kaynaklara nazik davran
+            else:
+                failed[sym] = err
 
     latest = {
         "guncelleme": now.strftime("%d.%m.%Y %H:%M") + " (TSİ)",
