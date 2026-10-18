@@ -6,8 +6,9 @@ Yapay zekâ kullanmaz, token harcamaz; GitHub'ın kendi sunucularında, bilgisay
 ## Nasıl çalışıyor?
 
 1. **`symbols.json`** — izlenen semboller listesi (döviz, emtia, endeks, ABD hisseleri, ülke ve tema ETF'leri) ve gece bekçisinin alarm eşikleri.
-2. **`collect.py`** — fiyatları ücretsiz kaynaklardan çeken program (Yahoo Finance; yedek olarak Stooq; dövizde Avrupa Merkez Bankası ile çapraz kontrol).
-3. **`.github/workflows/collect.yml`** — zamanlayıcı:
+2. **`collect.py`** — fiyatları ücretsiz kaynaklardan çeken program (Nasdaq, Yahoo, Stooq; dövizde Avrupa Merkez Bankası; bazı emtia ve endekslerde ETF vekilleri).
+3. **`apply.py`** — Claude'un gece güncellemesinde çalıştırdığı yardımcı: `latest.json`'daki ABD fiyatlarını, ülke/tema ETF getirilerini ve ABD endekslerini panoya kendisi yazar. Claude bu sayıları elle düzenlemediği için token harcanmaz.
+4. **`.github/workflows/collect.yml`** — zamanlayıcı:
    - hafta içi 10:00–23:30 (TSİ) arası her 30 dakikada bir,
    - geceleri 00:00–08:00 arası 2 saatte bir (gece bekçisi).
 

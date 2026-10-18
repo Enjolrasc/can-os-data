@@ -282,18 +282,43 @@ def metrics(d):
     def back(n):
         return closes[-n] if len(closes) >= n else None
 
+    # Aylık/yıllık getiriler takvim gününe göre (Barchart/Yahoo ile aynı yöntem):
+    # hedef tarihte veya hemen öncesindeki son kapanış baz alınır.
+    ref = rows[-1][0] if rows else today
+
+    def months_ago(m):
+        y, mo = ref.year, ref.month - m
+        while mo <= 0:
+            mo += 12
+            y -= 1
+        day = min(ref.day, 28 if mo == 2 else 30 if mo in (4, 6, 9, 11) else 31)
+        return ref.replace(year=y, month=mo, day=day)
+
+    def at(m):
+        tgt = months_ago(m)
+        if not hist or hist[0][0] > tgt:
+            return None
+        base = None
+        for dt, c in hist:
+            if dt <= tgt:
+                base = c
+            else:
+                break
+        return base
+
     prev_year = [c for dt, c in hist if dt.year < today.year]
-    hi = max([c for _, c in rows] + [price])
-    lo = min([c for _, c in rows] + [price])
+    yr = [c for dt, c in rows if dt > months_ago(12)]
+    hi = max(yr + [price])
+    lo = min(yr + [price])
     return {
         "fiyat": round(price, 6),
         "gun": pct(price, back(1)),
         "hafta": pct(price, back(5)),
-        "ay1": pct(price, back(21)),
-        "ay3": pct(price, back(63)),
-        "ay6": pct(price, back(126)),
+        "ay1": pct(price, at(1)),
+        "ay3": pct(price, at(3)),
+        "ay6": pct(price, at(6)),
         "ybb": pct(price, prev_year[-1] if prev_year else None),
-        "yil1": pct(price, closes[0] if len(closes) >= 240 else None),
+        "yil1": pct(price, at(12)),
         "zirve52": round(hi, 6),
         "dip52": round(lo, 6),
         "zirveye": pct(price, hi),
