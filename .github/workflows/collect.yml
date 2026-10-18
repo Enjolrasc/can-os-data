@@ -15,6 +15,7 @@ on:
       - "collect.py"
       - "symbols.json"
       - "apply.py"
+      - "us_market.py"
       - ".github/workflows/collect.yml"
 
 permissions:
@@ -35,6 +36,12 @@ jobs:
           python-version: "3.12"
       - name: Fiyatları çek
         run: python collect.py 2>&1 | tee data/son_calisma.log
+      - name: ABD piyasa detayı (genişlik, sektörler, analist hedefleri)
+        continue-on-error: true
+        timeout-minutes: 10
+        env:
+          HEDEF_ZORLA: ${{ github.event_name == 'push' && '1' || '' }}
+        run: python us_market.py 2>&1 | tee -a data/son_calisma.log
       - name: Sonuçları depoya kaydet
         if: always()
         run: |

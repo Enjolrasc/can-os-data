@@ -234,5 +234,138 @@
     "abd_hisse": 6.0,
     "ulke_etf": 4.0,
     "tema_etf": 5.0
-  }
+  },
+  "portfoy_abd": [
+    "SOFI",
+    "URNJ",
+    "SMR",
+    "PG",
+    "SCCO"
+  ],
+  "abd_sektor": {
+    "Çip (Yarı İletken)": [
+      "NVDA",
+      "AVGO",
+      "TSM",
+      "MU",
+      "AMD",
+      "INTC",
+      "AMAT",
+      "LRCX",
+      "TXN",
+      "KLAC",
+      "MRVL",
+      "ADI",
+      "QCOM"
+    ],
+    "Büyük Teknoloji & YZ": [
+      "AAPL",
+      "GOOGL",
+      "MSFT",
+      "AMZN",
+      "META",
+      "PLTR",
+      "ORCL",
+      "CRM",
+      "NOW",
+      "ADBE",
+      "CRWV"
+    ],
+    "Kuantum": [
+      "GOOGL",
+      "IBM",
+      "HON",
+      "IONQ",
+      "RGTI",
+      "QBTS",
+      "QUBT",
+      "ARQQ"
+    ],
+    "Elektrik & YZ Altyapısı": [
+      "GEV",
+      "NEE",
+      "ETN",
+      "CEG",
+      "VST"
+    ],
+    "Enerji (Petrol & Gaz)": [
+      "XOM",
+      "CVX",
+      "COP",
+      "MPC",
+      "PSX",
+      "WMB",
+      "EOG",
+      "KMI",
+      "SLB",
+      "OXY",
+      "FANG"
+    ],
+    "Sağlık & İlaç": [
+      "LLY",
+      "JNJ",
+      "ABBV",
+      "UNH",
+      "MRK",
+      "TMO",
+      "AMGN",
+      "ABT",
+      "PFE",
+      "ISRG",
+      "VRTX"
+    ],
+    "Finans & Bankacılık": [
+      "JPM",
+      "V",
+      "MA",
+      "BAC",
+      "GS",
+      "MS",
+      "WFC",
+      "AXP",
+      "C",
+      "BLK"
+    ],
+    "Savunma & Havacılık": [
+      "GE",
+      "RTX",
+      "BA",
+      "LMT",
+      "GD",
+      "NOC",
+      "HWM",
+      "TDG",
+      "LHX"
+    ],
+    "Otomotiv & EV": [
+      "TSLA",
+      "GM",
+      "F",
+      "APTV"
+    ],
+    "Tüketim & Perakende": [
+      "WMT",
+      "COST",
+      "KO",
+      "PG",
+      "HD",
+      "PEP",
+      "MCD"
+    ]
+  },
+  "abd_sektor_d_semboller": {
+    "Kuantum": [
+      "IONQ",
+      "RGTI",
+      "QBTS",
+      "QUBT",
+      "ARQQ"
+    ]
+  },
+  "abd_kisa_ad": {
+    "HON": "Honeywell (Quantinuum)",
+    "TSM": "TSMC (ADR)"
+  },
+  "_aciklama_abd": "abd_sektor: panodaki ABD sektör haritasının evrenleri. Radar (RDU) sembolleri pano dosyasından otomatik okunur ve analist hedefleri onlar için de çekilir; ayrıca abd_hedef_ek listesine sembol eklenebilir.",
+  "abd_hedef_ek": []
 }
