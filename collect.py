@@ -4,10 +4,11 @@ Bu program, symbols.json dosyasındaki sembollerin fiyatlarını ücretsiz
 kaynaklardan çeker ve data/ klasörüne yazar. GitHub Actions bunu belirli
 saatlerde otomatik çalıştırır; yapay zekâ kullanmaz, token harcamaz.
 
-Kaynaklar (sırayla denenir):
-  1. Yahoo Finance (ana kaynak)
-  2. Stooq (Yahoo cevap vermezse ABD hisse ve ETF'leri için yedek)
-  3. Frankfurter / Avrupa Merkez Bankası (döviz kurları için çapraz kontrol)
+Kaynaklar (sırayla denenir, ilk başarılı olan kullanılır):
+  1. Yahoo Finance (ana kaynak; oturum çerezi ile)
+  2. Nasdaq.com (ABD hisse ve ETF'leri için yedek)
+  3. Stooq (ABD hisse ve ETF'leri için ikinci yedek)
+  4. Avrupa Merkez Bankası / Frankfurter (döviz için yedek ve çapraz kontrol)
 
 Çıktılar:
   data/latest.json          en son fiyatlar ve getiriler
@@ -22,6 +23,8 @@ import io
 import json
 import os
 import time
+import threading
+import http.cookiejar
 from concurrent.futures import ThreadPoolExecutor
 import urllib.parse
 import urllib.request
@@ -33,21 +36,48 @@ TR = timezone(timedelta(hours=3))
 UA = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
 
 
-def http_get(url, timeout=10):
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=timeout) as r:
+_jar = http.cookiejar.CookieJar()
+_opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(_jar))
+_lock = threading.Lock()
+_state = {"crumb": None, "yahoo_fail": 0, "stooq_fail": 0, "nasdaq_fail": 0}
+
+
+def http_get(url, timeout=10, headers=None):
+    h = dict(UA)
+    h.update(headers or {})
+    req = urllib.request.Request(url, headers=h)
+    with _opener.open(req, timeout=timeout) as r:
         return r.read().decode("utf-8", "replace")
+
+
+def yahoo_login():
+    """Yahoo artık oturum çerezi + 'crumb' anahtarı istiyor; bir kez alıp tüm isteklerde kullanırız."""
+    try:
+        try:
+            http_get("https://fc.yahoo.com", timeout=10)
+        except Exception:  # noqa: BLE001 — bu adres 404 döner ama çerezi yine de verir
+            pass
+        crumb = http_get("https://query2.finance.yahoo.com/v1/test/getcrumb", timeout=10).strip()
+        if crumb and "<" not in crumb and len(crumb) < 40:
+            _state["crumb"] = crumb
+            return True
+    except Exception as e:  # noqa: BLE001
+        print(f"  Yahoo oturumu açılamadı: {e}", flush=True)
+    return False
 
 
 # ---------------------------------------------------------------- kaynaklar
 
 def from_yahoo(sym):
     """Yahoo Finance: 1 yıllık günlük kapanışlar + anlık fiyat."""
+    if _state["yahoo_fail"] >= 8:
+        raise RuntimeError("yahoo: art arda hata, bu turda atlandı")
     q = urllib.parse.quote(sym)
+    crumb = "&crumb=" + urllib.parse.quote(_state["crumb"]) if _state["crumb"] else ""
     last_err = None
-    for host in ("query1", "query2"):
+    for attempt, host in enumerate(("query2", "query1", "query2")):
         try:
-            raw = http_get(f"https://{host}.finance.yahoo.com/v8/finance/chart/{q}?range=1y&interval=1d&includePrePost=false")
+            raw = http_get(f"https://{host}.finance.yahoo.com/v8/finance/chart/{q}?range=1y&interval=1d&includePrePost=false{crumb}")
             res = json.loads(raw)["chart"]["result"][0]
             meta = res["meta"]
             ts = res.get("timestamp") or []
@@ -59,6 +89,8 @@ def from_yahoo(sym):
             if price is None or not rows:
                 raise ValueError("boş veri")
             mtime = meta.get("regularMarketTime")
+            with _lock:
+                _state["yahoo_fail"] = 0
             return {
                 "rows": rows,
                 "price": float(price),
@@ -66,20 +98,56 @@ def from_yahoo(sym):
                 "currency": meta.get("currency"),
                 "source": "yahoo",
             }
-        except Exception as e:  # noqa: BLE001 — bir sonraki sunucuyu dene
+        except Exception as e:  # noqa: BLE001
             last_err = e
-            time.sleep(0.5)
+            time.sleep(1.5 * (attempt + 1) if "429" in str(e) else 0.3)
+    with _lock:
+        _state["yahoo_fail"] += 1
     raise RuntimeError(f"yahoo: {last_err}")
+
+
+def from_nasdaq(sym):
+    """Nasdaq.com yedeği: ABD hisse ve ETF'leri için 1 yıllık kapanışlar."""
+    if any(ch in sym for ch in "=^.") or _state["nasdaq_fail"] >= 8:
+        raise RuntimeError("nasdaq: atlandı")
+    end = datetime.now(TR).date()
+    start = end - timedelta(days=375)
+    hdr = {"Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+    last_err = None
+    for cls in ("etf", "stocks"):
+        try:
+            raw = http_get(f"https://api.nasdaq.com/api/quote/{sym}/historical?assetclass={cls}&fromdate={start}&todate={end}&limit=400", headers=hdr)
+            rows_raw = ((json.loads(raw).get("data") or {}).get("tradesTable") or {}).get("rows") or []
+            rows = []
+            for r in rows_raw:
+                try:
+                    rows.append((datetime.strptime(r["date"], "%m/%d/%Y").date(), float(str(r["close"]).replace("$", "").replace(",", ""))))
+                except (KeyError, ValueError):
+                    continue
+            if rows:
+                rows.sort()
+                with _lock:
+                    _state["nasdaq_fail"] = 0
+                return {"rows": rows, "price": rows[-1][1], "time": None, "currency": "USD", "source": "nasdaq"}
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+    with _lock:
+        _state["nasdaq_fail"] += 1
+    raise RuntimeError(f"nasdaq: {last_err or 'boş veri'}")
 
 
 def from_stooq(sym):
     """Stooq yedeği: yalnızca ABD hisse/ETF'leri (ör. SPY -> spy.us)."""
-    if any(ch in sym for ch in "=^."):
-        raise RuntimeError("stooq: desteklenmeyen sembol")
+    if any(ch in sym for ch in "=^.") or _state["stooq_fail"] >= 5:
+        raise RuntimeError("stooq: atlandı")
     end = datetime.now(TR).date()
     start = end - timedelta(days=380)
-    url = f"https://stooq.com/q/d/l/?s={sym.lower()}.us&d1={start:%Y%m%d}&d2={end:%Y%m%d}&i=d"
-    text = http_get(url)
+    try:
+        text = http_get(f"https://stooq.com/q/d/l/?s={sym.lower()}.us&d1={start:%Y%m%d}&d2={end:%Y%m%d}&i=d", timeout=8)
+    except Exception as e:  # noqa: BLE001
+        with _lock:
+            _state["stooq_fail"] += 1
+        raise RuntimeError(f"stooq: {e}")
     rows = []
     for r in csv.DictReader(io.StringIO(text)):
         try:
@@ -91,14 +159,34 @@ def from_stooq(sym):
     return {"rows": rows, "price": rows[-1][1], "time": None, "currency": "USD", "source": "stooq"}
 
 
+ECB_PAIRS = {"USDTRY=X": ("USD", "TRY"), "EURTRY=X": ("EUR", "TRY"), "GBPTRY=X": ("GBP", "TRY"),
+             "CHFTRY=X": ("CHF", "TRY"), "JPYTRY=X": ("JPY", "TRY"), "EURUSD=X": ("EUR", "USD")}
+
+
+def from_ecb(sym):
+    """Avrupa Merkez Bankası (Frankfurter): dövizde günlük kurlar, 1 yıllık geçmiş."""
+    if sym not in ECB_PAIRS:
+        raise RuntimeError("ecb: desteklenmeyen sembol")
+    base, quote = ECB_PAIRS[sym]
+    end = datetime.now(TR).date()
+    start = end - timedelta(days=375)
+    rates = json.loads(http_get(f"https://api.frankfurter.app/{start}..{end}?from={base}&to={quote}"))["rates"]
+    rows = sorted((datetime.strptime(dt, "%Y-%m-%d").date(), v[quote]) for dt, v in rates.items() if quote in v)
+    if not rows:
+        raise RuntimeError("ecb: boş veri")
+    return {"rows": rows, "price": rows[-1][1], "time": None, "currency": quote, "source": "ecb"}
+
+
 def fetch(sym):
     errors = []
-    for fn in (from_yahoo, from_stooq):
+    for fn in (from_yahoo, from_nasdaq, from_stooq, from_ecb):
         try:
             return fn(sym)
         except Exception as e:  # noqa: BLE001
-            errors.append(str(e))
-    raise RuntimeError(" | ".join(errors))
+            msg = str(e)
+            if "atlandı" not in msg and "desteklenmeyen" not in msg:
+                errors.append(msg[:90])
+    raise RuntimeError(" | ".join(errors) or "kaynak yok")
 
 
 # ---------------------------------------------------------------- hesaplar
@@ -190,8 +278,9 @@ def main():
         except Exception as e:  # noqa: BLE001
             return group, sym, None, str(e)[:200]
 
-    # 6 paralel istek: hızlı ama kaynakları yormayacak kadar.
-    with ThreadPoolExecutor(max_workers=6) as pool:
+    # 3 paralel istek: hızlı ama kaynakları yormayacak kadar.
+    print('Yahoo oturumu: ' + ('açık' if yahoo_login() else 'yok (yedek kaynaklar kullanılacak)'), flush=True)
+    with ThreadPoolExecutor(max_workers=3) as pool:
         for group, sym, m, err in pool.map(work, jobs):
             if m:
                 data[group][sym] = m
@@ -208,6 +297,13 @@ def main():
         "veriler": data,
     }
     os.makedirs(os.path.join(DATA, "history"), exist_ok=True)
+    ok_count = sum(len(v) for v in data.values())
+    if ok_count < 0.3 * len(jobs):
+        # Kaynaklar büyük ölçüde cevap vermediyse elimizdeki son iyi veriyi bozmayalım.
+        print(f"UYARI: yalnızca {ok_count}/{len(jobs)} sembol alınabildi; latest.json güncellenmedi.", flush=True)
+        for s_, e_ in list(failed.items())[:40]:
+            print(f"  ! {s_}: {e_}")
+        return
     with open(os.path.join(DATA, "latest.json"), "w", encoding="utf-8") as f:
         json.dump(latest, f, ensure_ascii=False, indent=1)
     with open(os.path.join(DATA, "history", now.strftime("%Y-%m-%d") + ".json"), "w", encoding="utf-8") as f:
