@@ -9,8 +9,9 @@ Yapay zekâ kullanmaz, token harcamaz; GitHub'ın kendi sunucularında, bilgisay
 2. **`collect.py`** — fiyatları ücretsiz kaynaklardan çeken program (Nasdaq, Yahoo, Stooq; dövizde Avrupa Merkez Bankası; bazı emtia ve endekslerde ETF vekilleri).
 3. **`apply.py`** — Claude'un gece güncellemesinde çalıştırdığı yardımcı: `latest.json`'daki ABD fiyatlarını, ülke/tema ETF getirilerini ve ABD endekslerini panoya kendisi yazar. Claude bu sayıları elle düzenlemediği için token harcanmaz.
 4. **`us_market.py`** — ABD piyasa detayı: endeks genişliği, en çok yükselen/düşen hisseler, sektör haritası ve analist hedef fiyatları (Nasdaq).
-5. **`gece_gorevi.md`** — Claude'un her gece uyguladığı talimat. Görevi değiştirmek için bu dosyayı düzenlemek yeterli.
-6. **`.github/workflows/collect.yml`** — zamanlayıcı:
+5. **`ajan_portfoy.md`** — panodaki sanal ajan portföyünün (₺150 bin) kuralları: dağılım sınırları, faizsiz nakit, alınmayanlar, alım-satım davranışı.
+6. **`gece_gorevi.md`** — Claude'un her gece uyguladığı talimat. Görevi değiştirmek için bu dosyayı düzenlemek yeterli.
+7. **`.github/workflows/collect.yml`** — zamanlayıcı:
    - hafta içi 10:00–23:30 (TSİ) arası her 30 dakikada bir,
    - geceleri 00:00–08:00 arası 2 saatte bir (gece bekçisi).
 
