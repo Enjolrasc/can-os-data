@@ -26,6 +26,7 @@ import time
 import threading
 import http.cookiejar
 from concurrent.futures import ThreadPoolExecutor
+import re
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -106,6 +107,42 @@ def from_yahoo(sym):
     raise RuntimeError(f"yahoo: {last_err}")
 
 
+_MON = {m: i for i, m in enumerate(["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"], 1)}
+
+
+def _nasdaq_last_close(code, cls):
+    """Nasdaq 'info' servisi: geçmiş tablosuna henüz eklenmemiş son kapanışı (veya seans içi son fiyatı) döndürür.
+    Geçmiş servisi günün kapanışını ancak ertesi gün ekliyor; bu yüzden son satırı buradan tamamlarız."""
+    hdr = {"Accept": "application/json, text/plain, */*", "Origin": "https://www.nasdaq.com", "Referer": "https://www.nasdaq.com/"}
+    try:
+        d = (json.loads(http_get(f"https://api.nasdaq.com/api/quote/{urllib.parse.quote(code)}/info?assetclass={cls}", headers=hdr)).get("data") or {})
+    except Exception:  # noqa: BLE001
+        return None
+    status = str(d.get("marketStatus") or "").lower()
+    blocks = [d.get("secondaryData") or {}, d.get("primaryData") or {}]
+    pick = next((b for b in blocks if "closed" in str(b.get("lastTradeTimestamp") or "").lower()), None)
+    if pick is None and (status == "open" or cls == "index"):
+        pick = blocks[1]
+    if not pick:
+        return None
+    m = re.search(r"([A-Z][a-z]{2}) (\d{1,2}), (\d{4})", str(pick.get("lastTradeTimestamp") or ""))
+    try:
+        price = float(str(pick.get("lastSalePrice") or "").replace("$", "").replace(",", ""))
+        day = datetime(int(m.group(3)), _MON[m.group(1)], int(m.group(2))).date()
+    except (AttributeError, KeyError, ValueError):
+        return None
+    return day, price
+
+
+def _merge_last(rows, last):
+    if last and rows:
+        if last[0] > rows[-1][0]:
+            rows.append(last)
+        elif last[0] == rows[-1][0]:
+            rows[-1] = last
+    return rows
+
+
 def from_nasdaq(sym):
     """Nasdaq.com yedeği: ABD hisse ve ETF'leri için 1 yıllık kapanışlar."""
     if any(ch in sym for ch in "=^.") or _state["nasdaq_fail"] >= 8:
@@ -126,6 +163,7 @@ def from_nasdaq(sym):
                     continue
             if rows:
                 rows.sort()
+                _merge_last(rows, _nasdaq_last_close(sym, cls))
                 with _lock:
                     _state["nasdaq_fail"] = 0
                 return {"rows": rows, "price": rows[-1][1], "time": None, "currency": "USD", "source": "nasdaq"}
@@ -202,6 +240,8 @@ def _nasdaq_hist(code, cls):
         except (KeyError, ValueError, TypeError):
             continue
     rows.sort()
+    if rows and cls == "index":
+        _merge_last(rows, _nasdaq_last_close(code, cls))
     return rows
 
 
