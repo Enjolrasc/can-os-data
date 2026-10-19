@@ -108,5 +108,115 @@
   "degisim": -6.8,
   "fiyat": 21.39,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": 3.59,
+  "fiyat": 67.19,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -3.88,
+  "fiyat": 10.66,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "endeks",
+  "sembol": "^IXIC",
+  "ad": "Nasdaq Composite",
+  "degisim": -2.15,
+  "fiyat": 26140.03,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "endeks",
+  "sembol": "^NDX",
+  "ad": "Nasdaq-100",
+  "degisim": -2.5,
+  "fiyat": 29187.55,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 8.11,
+  "fiyat": 17.73,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "ulke_etf",
+  "sembol": "EIDO",
+  "ad": "EIDO",
+  "degisim": -14.9,
+  "fiyat": 9.94,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "CHAT",
+  "ad": "CHAT",
+  "degisim": -5.11,
+  "fiyat": 79.03,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "PSI",
+  "ad": "PSI",
+  "degisim": -5.16,
+  "fiyat": 124.5,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "WCBR",
+  "ad": "WCBR",
+  "degisim": -5.3,
+  "fiyat": 43.92,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "BUG",
+  "ad": "BUG",
+  "degisim": -5.26,
+  "fiyat": 44.34,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "BITQ",
+  "ad": "BITQ",
+  "degisim": -6.8,
+  "fiyat": 21.39,
+  "esik": 5.0
  }
 ]
