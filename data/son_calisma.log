@@ -1,6 +1,7 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-20.10.2026 01:42 · 208 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 6
+20.10.2026 02:49 · 207 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 7
+  ! PA=F: nasdaq: boş veri | nasdaq: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0)
   ! HO=F: nasdaq: boş veri
   ! TTF=F: nasdaq: boş veri
   ! ALI=F: nasdaq: boş veri
@@ -9,5 +10,4 @@ Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
   ! CT=F: nasdaq: boş veri
 screener: 6940 hisse
 tazelik: {'beklenen': '2026-10-19', 'liste_tarihi': '2026-10-19', 'fiyat_farki_medyan_yuzde': 1.363, 'eski': True}
-analist hedefleri: 518/528 (280 sn)
 {"sp500": [503, 249, 254, "$529 mr", null], "ndx": [101, 32, 69, "$329 mr", null], "r2k": [2000, 557, 1415, "$47 mr", null]}
