@@ -267,6 +267,29 @@ def from_proxy(sym):
     return d
 
 
+# Nasdaq vadeli emtia adresi kapandı ve bu altısının vekil ETF'i yok: TradingView tarayıcı API'si (anahtarsız, ~10 dk gecikmeli).
+TV_FUT = {"HO=F": "NYMEX:HO1!", "TTF=F": "NYMEX:TTF1!", "ALI=F": "COMEX:ALI1!", "KC=F": "ICEUS:KC1!", "CC=F": "ICEUS:CC1!", "CT=F": "ICEUS:CT1!"}
+TV_CCY = {"TTF=F": "EUR"}
+
+
+def from_tradingview(sym):
+    if sym not in TV_FUT:
+        raise RuntimeError("tradingview: desteklenmeyen sembol")
+    cols = ["close", "change", "Perf.W", "Perf.1M", "Perf.3M", "Perf.6M", "Perf.YTD", "Perf.Y", "price_52_week_high", "price_52_week_low"]
+    body = json.dumps({"symbols": {"tickers": [TV_FUT[sym]]}, "columns": cols}).encode()
+    req = urllib.request.Request("https://scanner.tradingview.com/futures/scan", data=body, headers={**UA, "Content-Type": "application/json"})
+    with _opener.open(req, timeout=15) as r:
+        rows = json.loads(r.read().decode("utf-8", "replace")).get("data") or []
+    if not rows or rows[0]["d"][0] is None:
+        raise RuntimeError("tradingview: boş veri")
+    c, gun, w, m1, m3, m6, ytd, y1, hi, lo = rows[0]["d"]
+    rd = lambda v: None if v is None else round(v, 2)
+    ready = {"fiyat": round(c, 6), "gun": rd(gun), "hafta": rd(w), "ay1": rd(m1), "ay3": rd(m3), "ay6": rd(m6), "ybb": rd(ytd), "yil1": rd(y1),
+             "zirve52": hi, "dip52": lo, "zirveye": pct(c, hi), "para": TV_CCY.get(sym, "USD"),
+             "zaman": datetime.now(TR).strftime("%d.%m.%Y %H:%M"), "kaynak": "tradingview"}
+    return {"ready": ready}
+
+
 def from_dxy(sym):
     """Dolar endeksi (DXY), ICE formülüyle ECB kurlarından hesaplanır."""
     if sym != "DX-Y.NYB":
@@ -290,7 +313,7 @@ def from_dxy(sym):
 
 def fetch(sym):
     errors = []
-    for fn in (from_yahoo, from_nasdaq_special, from_nasdaq, from_stooq, from_ecb, from_dxy, from_proxy):
+    for fn in (from_yahoo, from_nasdaq_special, from_nasdaq, from_stooq, from_ecb, from_dxy, from_proxy, from_tradingview):
         try:
             return fn(sym)
         except Exception as e:  # noqa: BLE001
@@ -309,6 +332,8 @@ def pct(a, b):
 
 
 def metrics(d):
+    if "ready" in d:  # kaynak getirileri kendisi hesaplayıp verdi
+        return d["ready"]
     rows, price = d["rows"], d["price"]
     today = (d["time"] or datetime.now(TR)).date()
     if d["time"] is None and len(rows) > 1:
