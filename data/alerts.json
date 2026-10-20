@@ -162,16 +162,6 @@
  {
   "gun_tarihi": "2026-10-20",
   "zaman": "20.10.2026 03:30",
-  "grup": "ulke_etf",
-  "sembol": "EIDO",
-  "ad": "EIDO",
-  "degisim": -14.9,
-  "fiyat": 9.94,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 03:30",
   "grup": "tema_etf",
   "sembol": "PSI",
   "ad": "PSI",
@@ -227,6 +217,16 @@
   "ad": "EWY",
   "degisim": 4.08,
   "fiyat": 156.58,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 20:22",
+  "grup": "ulke_etf",
+  "sembol": "EIDO",
+  "ad": "EIDO",
+  "degisim": 7.75,
+  "fiyat": 10.355,
   "esik": 4.0
  }
 ]
