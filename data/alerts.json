@@ -228,5 +228,25 @@
   "degisim": 7.18,
   "fiyat": 10.3,
   "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-21",
+  "zaman": "21.10.2026 02:41",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -3.38,
+  "fiyat": 85.062,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-21",
+  "zaman": "21.10.2026 02:41",
+  "grup": "ulke_etf",
+  "sembol": "EIDO",
+  "ad": "EIDO",
+  "degisim": 7.18,
+  "fiyat": 10.3,
+  "esik": 4.0
  }
 ]
