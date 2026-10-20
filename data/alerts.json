@@ -162,26 +162,6 @@
  {
   "gun_tarihi": "2026-10-20",
   "zaman": "20.10.2026 03:30",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -3.89,
-  "fiyat": 17.04,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 03:30",
-  "grup": "ulke_etf",
-  "sembol": "EWY",
-  "ad": "EWY",
-  "degisim": 4.11,
-  "fiyat": 156.62,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 03:30",
   "grup": "ulke_etf",
   "sembol": "EIDO",
   "ad": "EIDO",
@@ -228,5 +208,25 @@
   "degisim": -6.8,
   "fiyat": 21.39,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 08:45",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -4.06,
+  "fiyat": 17.01,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 08:45",
+  "grup": "ulke_etf",
+  "sembol": "EWY",
+  "ad": "EWY",
+  "degisim": 4.08,
+  "fiyat": 156.58,
+  "esik": 4.0
  }
 ]
