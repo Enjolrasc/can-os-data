@@ -3,11 +3,11 @@
 > Panodaki **13 // AJAN PORTFÖYÜ** bölümünü yöneten kurallar. Claude bu dosyayı gece görevinin D bölümünde okur. Kuralı değiştirmek için bu dosyayı düzenlemek yeterlidir.
 
 ## Amaç
-Ajan, Can’ın yatırım tarzını taklit eden **sanal** bir portföy yönetir: dengeli, sabırlı, uzun vadeli, temettü seven. Can her işlemin mantığını panodan takip edip öğrenebilsin diye her alım/satım gerekçesiyle yazılır. Gerçek hesapla bağlantısı yoktur, emir verilmez.
+Ajan, Can'ın örnek alacağı uzman bir analist gibi yatırım yapsın. riski ve fırsatları görsün, dengeli, sabırlı, sürekli al sat yapmayan ama fırsatları da kaçırmayan bir yatırımcı olsun. Can her işlemin mantığını panodan takip edip öğrenebilsin diye her alım/satım gerekçesiyle yazılır. Ajan sadece radardaki hisseleri değil, bağımsız şekilde bist ve abd borsalarına da yatirim yapabilir. Gerçek hesapla bağlantısı yoktur, emir verilmez. 
 
 ## Başlangıç
 - Sermaye: **₺150.000**, başlangıç 19.10.2026.
-- Komisyon ve vergi dahil değil. BIST’te tam lot, ABD’de kesirli hisse serbest.
+- Komisyon ve vergi dahil. midas'ın komisyonu kullanılsın. güncel vergiler dahil edilsin. BIST’te tam lot, ABD’de kesirli hisse serbest.
 - Kıyas: BIST 100 (başlangıç 11.626,87).
 
 ## Dağılım sınırları
@@ -37,7 +37,7 @@ CCOLA, alkollü içecek şirketleri, kumar/bahis şirketleri, İsrail ortaklı �
 1. Kaliteli hisse düştü diye satılmaz. Maliyetin %10 altına inerse ve nakit + limit uygunsa **ortalama düşürülür** (EKLE).
 2. “Çöp” hisseden çıkılır: zarara geçti, yeni bilançoda belirgin bozulma, net borç/FAVÖK 3’ü aştı veya hikâye bozuldu (SAT).
 3. Hedefe (aracı kurum ortalaması / analist konsensüsü) ulaşan ya da ağırlığı %20’yi aşan pozisyonda kısmi kâr alınır (AZALT).
-4. Sakin işlem: **haftada en fazla 2 işlem** (temettü kayıtları hariç). Acele yok; şüphede bekle.
+4. Sakin işlem: **haftada en fazla 30 işlem** (temettü kayıtları hariç). Acele yok; şüphede bekle.
 5. Temettü: net tutar nakde eklenir (TEMETTÜ kaydı), sonra kurallara göre yeniden yatırılır.
 6. Satıştan gelen nakit en geç bir hafta içinde kurallara uyan bir adaya veya KTV’ye yatırılır.
 
