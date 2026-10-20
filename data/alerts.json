@@ -152,16 +152,6 @@
  {
   "gun_tarihi": "2026-10-20",
   "zaman": "20.10.2026 01:26",
-  "grup": "ulke_etf",
-  "sembol": "EIDO",
-  "ad": "EIDO",
-  "degisim": -14.9,
-  "fiyat": 9.94,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 01:26",
   "grup": "tema_etf",
   "sembol": "CHAT",
   "ad": "CHAT",
@@ -171,47 +161,7 @@
  },
  {
   "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "PSI",
-  "ad": "PSI",
-  "degisim": -5.16,
-  "fiyat": 124.5,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "WCBR",
-  "ad": "WCBR",
-  "degisim": -5.3,
-  "fiyat": 43.92,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "BUG",
-  "ad": "BUG",
-  "degisim": -5.26,
-  "fiyat": 44.34,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "BITQ",
-  "ad": "BITQ",
-  "degisim": -6.8,
-  "fiyat": 21.39,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 03:09",
+  "zaman": "20.10.2026 03:30",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -221,12 +171,62 @@
  },
  {
   "gun_tarihi": "2026-10-20",
-  "zaman": "20.10.2026 03:09",
+  "zaman": "20.10.2026 03:30",
   "grup": "ulke_etf",
   "sembol": "EWY",
   "ad": "EWY",
   "degisim": 4.11,
   "fiyat": 156.62,
   "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 03:30",
+  "grup": "ulke_etf",
+  "sembol": "EIDO",
+  "ad": "EIDO",
+  "degisim": -14.9,
+  "fiyat": 9.94,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 03:30",
+  "grup": "tema_etf",
+  "sembol": "PSI",
+  "ad": "PSI",
+  "degisim": -5.16,
+  "fiyat": 124.5,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 03:30",
+  "grup": "tema_etf",
+  "sembol": "WCBR",
+  "ad": "WCBR",
+  "degisim": -5.3,
+  "fiyat": 43.92,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 03:30",
+  "grup": "tema_etf",
+  "sembol": "BUG",
+  "ad": "BUG",
+  "degisim": -5.26,
+  "fiyat": 44.34,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-20",
+  "zaman": "20.10.2026 03:30",
+  "grup": "tema_etf",
+  "sembol": "BITQ",
+  "ad": "BITQ",
+  "degisim": -6.8,
+  "fiyat": 21.39,
+  "esik": 5.0
  }
 ]
