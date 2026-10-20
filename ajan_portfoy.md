@@ -37,7 +37,7 @@ CCOLA, alkollü içecek şirketleri, kumar/bahis şirketleri, İsrail ortaklı �
 1. Kaliteli hisse düştü diye satılmaz. Maliyetin %10 altına inerse ve nakit + limit uygunsa **ortalama düşürülür** (EKLE).
 2. “Çöp” hisseden çıkılır: zarara geçti, yeni bilançoda belirgin bozulma, net borç/FAVÖK 3’ü aştı veya hikâye bozuldu (SAT).
 3. Hedefe (aracı kurum ortalaması / analist konsensüsü) ulaşan ya da ağırlığı %20’yi aşan pozisyonda kısmi kâr alınır (AZALT).
-4. Sakin işlem: **haftada en fazla 30 işlem** (temettü kayıtları hariç). Acele yok; şüphede bekle.
+4. Sakin işlem: **haftada en fazla 5 işlem** (temettü kayıtları hariç). Acele yok; şüphede bekle. 5 işlemin hepsini doldurması zorunlu değil. en fazla 5 olsun.
 5. Temettü: net tutar nakde eklenir (TEMETTÜ kaydı), sonra kurallara göre yeniden yatırılır.
 6. Satıştan gelen nakit en geç bir hafta içinde kurallara uyan bir adaya veya KTV’ye yatırılır.
 
