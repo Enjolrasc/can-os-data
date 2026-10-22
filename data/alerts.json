@@ -258,5 +258,15 @@
   "degisim": -5.14,
   "fiyat": 9.96,
   "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-22",
+  "zaman": "22.10.2026 02:56",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -5.14,
+  "fiyat": 9.96,
+  "esik": 3.0
  }
 ]
