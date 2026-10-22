@@ -261,12 +261,42 @@
  },
  {
   "gun_tarihi": "2026-10-22",
-  "zaman": "22.10.2026 08:52",
+  "zaman": "22.10.2026 15:33",
+  "grup": "emtia",
+  "sembol": "HO=F",
+  "ad": "Dizel (ULSD)",
+  "degisim": 3.36,
+  "fiyat": 4.7309,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-22",
+  "zaman": "22.10.2026 15:33",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
   "degisim": -5.05,
   "fiyat": 9.97,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-22",
+  "zaman": "22.10.2026 15:33",
+  "grup": "emtia",
+  "sembol": "KC=F",
+  "ad": "Kahve",
+  "degisim": -3.64,
+  "fiyat": 304.65,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-22",
+  "zaman": "22.10.2026 15:33",
+  "grup": "emtia",
+  "sembol": "CC=F",
+  "ad": "Kakao",
+  "degisim": -4.19,
+  "fiyat": 5598,
   "esik": 3.0
  }
 ]
