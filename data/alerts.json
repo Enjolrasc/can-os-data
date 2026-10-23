@@ -1058,5 +1058,75 @@
   "degisim": 5.45,
   "fiyat": 397.56,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": 3.05,
+  "fiyat": 71.01,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": 4.31,
+  "fiyat": 169.52,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -3.03,
+  "fiyat": 9.59,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 4.23,
+  "fiyat": 93.853,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "abd_hisse",
+  "sembol": "TMUS",
+  "ad": "T-Mobile US",
+  "degisim": -7.71,
+  "fiyat": 146.54,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "tema_etf",
+  "sembol": "WCBR",
+  "ad": "WCBR",
+  "degisim": 5.04,
+  "fiyat": 49.4963,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-24",
+  "zaman": "24.10.2026 02:47",
+  "grup": "tema_etf",
+  "sembol": "OIH",
+  "ad": "OIH",
+  "degisim": 5.45,
+  "fiyat": 397.56,
+  "esik": 5.0
  }
 ]
