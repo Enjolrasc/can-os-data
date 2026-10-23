@@ -682,16 +682,6 @@
  {
   "gun_tarihi": "2026-10-23",
   "zaman": "23.10.2026 15:13",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 4.17,
-  "fiyat": 93.8,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 15:13",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -707,16 +697,6 @@
   "ad": "Nasdaq-100",
   "degisim": -2.9,
   "fiyat": 28958.69,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 15:13",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 6.31,
-  "fiyat": 17.7,
   "esik": 2.0
  },
  {
@@ -988,5 +968,65 @@
   "degisim": -6.27,
   "fiyat": 73.13,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": 3.4,
+  "fiyat": 168.04,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -3.49,
+  "fiyat": 9.545,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 3.62,
+  "fiyat": 93.3,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 3.11,
+  "fiyat": 18.25,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "abd_hisse",
+  "sembol": "TMUS",
+  "ad": "T-Mobile US",
+  "degisim": -6.05,
+  "fiyat": 149.19,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 20:18",
+  "grup": "abd_hisse",
+  "sembol": "SGHC",
+  "ad": "Super Group",
+  "degisim": -6.08,
+  "fiyat": 10.66,
+  "esik": 6.0
  }
 ]
