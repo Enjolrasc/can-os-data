@@ -643,6 +643,16 @@
   "gun_tarihi": "2026-10-23",
   "zaman": "23.10.2026 08:50",
   "grup": "emtia",
+  "sembol": "CC=F",
+  "ad": "Kakao",
+  "degisim": -4.47,
+  "fiyat": 5582,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-23",
+  "zaman": "23.10.2026 15:13",
+  "grup": "emtia",
   "sembol": "SI=F",
   "ad": "Gümüş (ons $)",
   "degisim": -5.59,
@@ -651,7 +661,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "emtia",
   "sembol": "PL=F",
   "ad": "Platin (ons $)",
@@ -661,7 +671,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "emtia",
   "sembol": "PA=F",
   "ad": "Paladyum (ons $)",
@@ -671,17 +681,17 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "emtia",
-  "sembol": "CC=F",
-  "ad": "Kakao",
-  "degisim": -4.47,
-  "fiyat": 5582,
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 4.17,
+  "fiyat": 93.8,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -691,7 +701,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "endeks",
   "sembol": "^NDX",
   "ad": "Nasdaq-100",
@@ -701,7 +711,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -711,7 +721,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "abd_hisse",
   "sembol": "SCCO",
   "ad": "Southern Copper",
@@ -721,7 +731,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "abd_hisse",
   "sembol": "MU",
   "ad": "Micron",
@@ -731,7 +741,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "ulke_etf",
   "sembol": "EWY",
   "ad": "EWY",
@@ -741,7 +751,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "ulke_etf",
   "sembol": "EPU",
   "ad": "EPU",
@@ -751,7 +761,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "ulke_etf",
   "sembol": "EWO",
   "ad": "EWO",
@@ -761,7 +771,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "ulke_etf",
   "sembol": "EWT",
   "ad": "EWT",
@@ -771,7 +781,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SGDM",
   "ad": "SGDM",
@@ -781,7 +791,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "RING",
   "ad": "RING",
@@ -791,7 +801,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "GDX",
   "ad": "GDX",
@@ -801,7 +811,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "GDXJ",
   "ad": "GDXJ",
@@ -811,7 +821,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "GOAU",
   "ad": "GOAU",
@@ -821,7 +831,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SIVR",
   "ad": "SIVR",
@@ -831,7 +841,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SLV",
   "ad": "SLV",
@@ -841,7 +851,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SIL",
   "ad": "SIL",
@@ -851,7 +861,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SILJ",
   "ad": "SILJ",
@@ -861,7 +871,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "IGPT",
   "ad": "IGPT",
@@ -871,7 +881,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "ARTY",
   "ad": "ARTY",
@@ -881,7 +891,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "WTAI",
   "ad": "WTAI",
@@ -891,7 +901,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "CHAT",
   "ad": "CHAT",
@@ -901,7 +911,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "FTXL",
   "ad": "FTXL",
@@ -911,7 +921,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SOXX",
   "ad": "SOXX",
@@ -921,7 +931,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "PSI",
   "ad": "PSI",
@@ -931,7 +941,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SOXQ",
   "ad": "SOXQ",
@@ -941,7 +951,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "SMH",
   "ad": "SMH",
@@ -951,7 +961,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
@@ -961,7 +971,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "URNJ",
   "ad": "URNJ",
@@ -971,7 +981,7 @@
  },
  {
   "gun_tarihi": "2026-10-23",
-  "zaman": "23.10.2026 08:50",
+  "zaman": "23.10.2026 15:13",
   "grup": "tema_etf",
   "sembol": "COPX",
   "ad": "COPX",
