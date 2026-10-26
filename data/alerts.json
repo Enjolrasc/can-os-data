@@ -1268,5 +1268,65 @@
   "degisim": 5.4,
   "fiyat": 397.36,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "emtia",
+  "sembol": "KC=F",
+  "ad": "Kahve",
+  "degisim": -3.71,
+  "fiyat": 296.05,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": -4.24,
+  "fiyat": 11.635,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.23,
+  "fiyat": 17.52,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "ulke_etf",
+  "sembol": "EWZ",
+  "ad": "EWZ",
+  "degisim": -24.88,
+  "fiyat": 31.995,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "ulke_etf",
+  "sembol": "ARGT",
+  "ad": "ARGT",
+  "degisim": -7.11,
+  "fiyat": 80.89,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-26",
+  "zaman": "26.10.2026 16:39",
+  "grup": "tema_etf",
+  "sembol": "SDIV",
+  "ad": "SDIV",
+  "degisim": -5.12,
+  "fiyat": 22.99,
+  "esik": 5.0
  }
 ]
