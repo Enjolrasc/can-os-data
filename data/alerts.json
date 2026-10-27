@@ -1221,56 +1221,6 @@
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 03:17",
-  "grup": "ulke_etf",
-  "sembol": "ARGT",
-  "ad": "ARGT",
-  "degisim": -5.0,
-  "fiyat": 82.73,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 03:40",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 3.01,
-  "fiyat": 96.681,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 03:40",
-  "grup": "emtia",
-  "sembol": "SB=F",
-  "ad": "Şeker",
-  "degisim": -5.6,
-  "fiyat": 11.47,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 03:40",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.06,
-  "fiyat": 17.55,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 03:40",
-  "grup": "ulke_etf",
-  "sembol": "EWZ",
-  "ad": "EWZ",
-  "degisim": -19.84,
-  "fiyat": 34.14,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-27",
   "zaman": "27.10.2026 03:40",
   "grup": "tema_etf",
   "sembol": "WCBR",
@@ -1288,5 +1238,55 @@
   "degisim": 5.4,
   "fiyat": 397.36,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 09:04",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 3.01,
+  "fiyat": 96.681,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 09:04",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": -5.6,
+  "fiyat": 11.47,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 09:04",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.01,
+  "fiyat": 17.56,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 09:04",
+  "grup": "ulke_etf",
+  "sembol": "EWZ",
+  "ad": "EWZ",
+  "degisim": -19.82,
+  "fiyat": 34.15,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 09:04",
+  "grup": "ulke_etf",
+  "sembol": "ARGT",
+  "ad": "ARGT",
+  "degisim": -4.95,
+  "fiyat": 82.77,
+  "esik": 4.0
  }
 ]
