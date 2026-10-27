@@ -1241,17 +1241,17 @@
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 09:04",
+  "zaman": "27.10.2026 14:11",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
-  "degisim": 3.01,
-  "fiyat": 96.681,
+  "degisim": -3.29,
+  "fiyat": 93.5,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 13:41",
+  "zaman": "27.10.2026 14:11",
   "grup": "emtia",
   "sembol": "SB=F",
   "ad": "Şeker",
@@ -1261,7 +1261,7 @@
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 13:41",
+  "zaman": "27.10.2026 14:11",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -1271,17 +1271,17 @@
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 13:41",
+  "zaman": "27.10.2026 14:11",
   "grup": "ulke_etf",
   "sembol": "EWZ",
   "ad": "EWZ",
-  "degisim": -19.84,
-  "fiyat": 34.14,
+  "degisim": -19.82,
+  "fiyat": 34.15,
   "esik": 4.0
  },
  {
   "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 13:41",
+  "zaman": "27.10.2026 14:11",
   "grup": "ulke_etf",
   "sembol": "ARGT",
   "ad": "ARGT",
