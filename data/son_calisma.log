@@ -1,6 +1,6 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-27.10.2026 03:17 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
+27.10.2026 03:40 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
 screener: 6915 hisse
-tazelik: {'beklenen': '2026-10-26', 'liste_tarihi': '2026-10-26', 'fiyat_farki_medyan_yuzde': 0.862, 'eski': True}
+tazelik: {'beklenen': '2026-10-26', 'liste_tarihi': '2026-10-26', 'fiyat_farki_medyan_yuzde': 0.669, 'eski': True}
 {"sp500": [503, 135, 367, "$410 mr", null], "ndx": [101, 33, 67, "$232 mr", null], "r2k": [2000, 738, 1215, "$42 mr", null]}
