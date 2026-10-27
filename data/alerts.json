@@ -1293,16 +1293,6 @@
   "gun_tarihi": "2026-10-27",
   "zaman": "27.10.2026 16:41",
   "grup": "abd_hisse",
-  "sembol": "SOFI",
-  "ad": "SoFi Technologies",
-  "degisim": 10.89,
-  "fiyat": 16.035,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-10-27",
-  "zaman": "27.10.2026 16:41",
-  "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
   "degisim": 6.07,
@@ -1318,5 +1308,15 @@
   "degisim": 5.09,
   "fiyat": 17.96,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-27",
+  "zaman": "27.10.2026 17:11",
+  "grup": "abd_hisse",
+  "sembol": "SOFI",
+  "ad": "SoFi Technologies",
+  "degisim": 11.2,
+  "fiyat": 16.08,
+  "esik": 6.0
  }
 ]
