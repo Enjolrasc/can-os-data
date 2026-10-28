@@ -1221,26 +1221,6 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "PBW",
-  "ad": "PBW",
-  "degisim": 5.39,
-  "fiyat": 25.79,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 03:20",
-  "grup": "tema_etf",
-  "sembol": "URNJ",
-  "ad": "URNJ",
-  "degisim": 7.43,
-  "fiyat": 18.36,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-28",
   "zaman": "28.10.2026 03:39",
   "grup": "emtia",
   "sembol": "SB=F",
@@ -1248,26 +1228,6 @@
   "degisim": -5.6,
   "fiyat": 11.47,
   "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 03:39",
-  "grup": "abd_hisse",
-  "sembol": "SOFI",
-  "ad": "SoFi Technologies",
-  "degisim": 13.42,
-  "fiyat": 16.4,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 03:39",
-  "grup": "abd_hisse",
-  "sembol": "SMR",
-  "ad": "NuScale Power",
-  "degisim": 8.35,
-  "fiyat": 5.71,
-  "esik": 6.0
  },
  {
   "gun_tarihi": "2026-10-28",
@@ -1281,12 +1241,52 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 03:39",
+  "zaman": "28.10.2026 09:41",
+  "grup": "abd_hisse",
+  "sembol": "SOFI",
+  "ad": "SoFi Technologies",
+  "degisim": 13.42,
+  "fiyat": 16.4,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 09:41",
+  "grup": "abd_hisse",
+  "sembol": "SMR",
+  "ad": "NuScale Power",
+  "degisim": 8.16,
+  "fiyat": 5.7,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 09:41",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
-  "degisim": 5.12,
-  "fiyat": 44.72,
+  "degisim": 5.2,
+  "fiyat": 44.75,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 09:41",
+  "grup": "tema_etf",
+  "sembol": "URNJ",
+  "ad": "URNJ",
+  "degisim": 7.43,
+  "fiyat": 18.36,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 09:41",
+  "grup": "tema_etf",
+  "sembol": "PBW",
+  "ad": "PBW",
+  "degisim": 5.48,
+  "fiyat": 25.81,
   "esik": 5.0
  }
 ]
