@@ -1222,6 +1222,16 @@
  {
   "gun_tarihi": "2026-10-28",
   "zaman": "28.10.2026 01:26",
+  "grup": "tema_etf",
+  "sembol": "PBW",
+  "ad": "PBW",
+  "degisim": 5.39,
+  "fiyat": 25.79,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 03:20",
   "grup": "abd_hisse",
   "sembol": "SOFI",
   "ad": "SoFi Technologies",
@@ -1231,7 +1241,7 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 01:26",
+  "zaman": "28.10.2026 03:20",
   "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
@@ -1241,7 +1251,17 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 01:26",
+  "zaman": "28.10.2026 03:20",
+  "grup": "ulke_etf",
+  "sembol": "ARGT",
+  "ad": "ARGT",
+  "degisim": -4.95,
+  "fiyat": 82.77,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 03:20",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
@@ -1251,22 +1271,12 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 01:26",
+  "zaman": "28.10.2026 03:20",
   "grup": "tema_etf",
   "sembol": "URNJ",
   "ad": "URNJ",
   "degisim": 7.43,
   "fiyat": 18.36,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 01:26",
-  "grup": "tema_etf",
-  "sembol": "PBW",
-  "ad": "PBW",
-  "degisim": 5.39,
-  "fiyat": 25.79,
   "esik": 5.0
  }
 ]
