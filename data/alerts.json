@@ -1288,5 +1288,25 @@
   "degisim": 5.48,
   "fiyat": 25.81,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 16:41",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 3.92,
+  "fiyat": 99.585,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 16:41",
+  "grup": "ulke_etf",
+  "sembol": "EIS",
+  "ad": "EIS",
+  "degisim": -5.07,
+  "fiyat": 118.04,
+  "esik": 4.0
  }
 ]
