@@ -1301,17 +1301,7 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 20:41",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.21,
-  "fiyat": 17.005,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 22:11",
+  "zaman": "28.10.2026 23:11",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
@@ -1321,32 +1311,42 @@
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 22:11",
+  "zaman": "28.10.2026 23:11",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.13,
+  "fiyat": 17.02,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-28",
+  "zaman": "28.10.2026 23:11",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
-  "degisim": 12.11,
-  "fiyat": 146.34,
+  "degisim": 10.58,
+  "fiyat": 144.34,
   "esik": 6.0
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 22:11",
+  "zaman": "28.10.2026 23:11",
   "grup": "ulke_etf",
   "sembol": "EWY",
   "ad": "EWY",
-  "degisim": 5.06,
-  "fiyat": 165.43,
+  "degisim": 5.35,
+  "fiyat": 165.88,
   "esik": 4.0
  },
  {
   "gun_tarihi": "2026-10-28",
-  "zaman": "28.10.2026 22:11",
+  "zaman": "28.10.2026 23:11",
   "grup": "ulke_etf",
   "sembol": "EIS",
   "ad": "EIS",
   "degisim": -4.94,
-  "fiyat": 118.2,
+  "fiyat": 118.195,
   "esik": 4.0
  }
 ]
