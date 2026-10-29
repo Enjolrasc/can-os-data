@@ -1352,16 +1352,6 @@
  {
   "gun_tarihi": "2026-10-29",
   "zaman": "29.10.2026 09:50",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.13,
-  "fiyat": 17.02,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 09:50",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
@@ -1421,32 +1411,42 @@
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:41",
+  "zaman": "29.10.2026 23:11",
   "grup": "emtia",
   "sembol": "SI=F",
   "ad": "Gümüş (ons $)",
-  "degisim": -4.03,
-  "fiyat": 47.085,
+  "degisim": -3.61,
+  "fiyat": 47.29,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:41",
+  "zaman": "29.10.2026 23:11",
   "grup": "emtia",
   "sembol": "PL=F",
   "ad": "Platin (ons $)",
-  "degisim": -3.9,
-  "fiyat": 13.445,
+  "degisim": -3.72,
+  "fiyat": 13.47,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:41",
+  "zaman": "29.10.2026 23:11",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
-  "degisim": -3.37,
-  "fiyat": 9.1799,
+  "degisim": -3.32,
+  "fiyat": 9.185,
   "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 23:11",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.06,
+  "fiyat": 16.67,
+  "esik": 2.0
  }
 ]
