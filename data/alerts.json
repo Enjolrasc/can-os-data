@@ -1393,26 +1393,6 @@
   "gun_tarihi": "2026-10-29",
   "zaman": "29.10.2026 16:47",
   "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -4.1,
-  "fiyat": 47.0499,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 16:47",
-  "grup": "emtia",
-  "sembol": "PL=F",
-  "ad": "Platin (ons $)",
-  "degisim": -4.36,
-  "fiyat": 13.38,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 16:47",
-  "grup": "emtia",
   "sembol": "HO=F",
   "ad": "Dizel (ULSD)",
   "degisim": -3.52,
@@ -1428,5 +1408,35 @@
   "degisim": -3.23,
   "fiyat": 97.1,
   "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 20:11",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -3.4,
+  "fiyat": 47.3905,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 20:11",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -3.5,
+  "fiyat": 13.4999,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 20:11",
+  "grup": "abd_hisse",
+  "sembol": "SMR",
+  "ad": "NuScale Power",
+  "degisim": 6.63,
+  "fiyat": 6.0461,
+  "esik": 6.0
  }
 ]
