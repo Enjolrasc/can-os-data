@@ -1421,17 +1421,17 @@
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:11",
+  "zaman": "29.10.2026 22:18",
   "grup": "emtia",
   "sembol": "SI=F",
   "ad": "Gümüş (ons $)",
-  "degisim": -4.17,
-  "fiyat": 47.0159,
+  "degisim": -4.16,
+  "fiyat": 47.02,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:11",
+  "zaman": "29.10.2026 22:18",
   "grup": "emtia",
   "sembol": "PL=F",
   "ad": "Platin (ons $)",
@@ -1441,12 +1441,12 @@
  },
  {
   "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 22:11",
+  "zaman": "29.10.2026 22:18",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
-  "degisim": -3.05,
-  "fiyat": 9.2099,
+  "degisim": -3.25,
+  "fiyat": 9.1915,
   "esik": 3.0
  }
 ]
