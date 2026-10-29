@@ -1,9 +1,8 @@
 {
- "guncelleme": "29.10.2026 23:11 (TSİ)",
- "guncelleme_iso": "2026-10-29T23:11:03+03:00",
+ "guncelleme": "30.10.2026 02:25 (TSİ)",
+ "guncelleme_iso": "2026-10-30T02:25:18+03:00",
  "kaynaklar": {
-  "yahoo": 1,
-  "ecb": 5,
+  "ecb": 6,
   "ecb-hesap": 1,
   "vekil:GLD": 1,
   "vekil:SLV": 1,
@@ -28,7 +27,7 @@
  "doviz_capraz_kontrol": {
   "USDTRY=X": {
    "ecb": 49.837,
-   "fark_yuzde": -0.01,
+   "fark_yuzde": 0.0,
    "uyari": false
   },
   "EURTRY=X": {
@@ -55,20 +54,20 @@
  "veriler": {
   "doviz": {
    "USDTRY=X": {
-    "fiyat": 49.832,
-    "gun": 0.07,
+    "fiyat": 49.837,
+    "gun": -0.0,
     "hafta": 0.42,
     "ay1": 1.71,
-    "ay3": 5.17,
-    "ay6": 10.59,
-    "ybb": 16.02,
-    "yil1": 18.79,
-    "zirve52": 49.832001,
-    "dip52": 41.897629,
+    "ay3": 5.15,
+    "ay6": 10.58,
+    "ybb": 15.99,
+    "yil1": 18.81,
+    "zirve52": 49.838,
+    "dip52": 41.988,
     "zirveye": -0.0,
     "para": "TRY",
-    "zaman": "29.10.2026 23:11",
-    "kaynak": "yahoo",
+    "zaman": "30.10.2026 02:25",
+    "kaynak": "ecb",
     "ad": "Dolar / TL"
    },
    "EURTRY=X": {
@@ -84,7 +83,7 @@
     "dip52": 48.3616,
     "zirveye": -1.8,
     "para": "TRY",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb",
     "ad": "Euro / TL"
    },
@@ -101,7 +100,7 @@
     "dip52": 54.906,
     "zirveye": -0.18,
     "para": "TRY",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb",
     "ad": "Sterlin / TL"
    },
@@ -118,7 +117,7 @@
     "dip52": 51.974,
     "zirveye": -0.37,
     "para": "TRY",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb",
     "ad": "İsviçre frangı / TL"
    },
@@ -135,7 +134,7 @@
     "dip52": 0.26883,
     "zirveye": -0.6,
     "para": "TRY",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb",
     "ad": "Japon yeni / TL"
    },
@@ -152,7 +151,7 @@
     "dip52": 1.113,
     "zirveye": -7.05,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb",
     "ad": "Euro / Dolar"
    },
@@ -169,7 +168,7 @@
     "dip52": 96.203198,
     "zirveye": -0.12,
     "para": null,
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "ecb-hesap",
     "ad": "Dolar endeksi (DXY)"
    }
@@ -188,7 +187,7 @@
     "dip52": 362.32,
     "zirveye": -25.68,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "vekil:GLD",
     "ad": "Altın (ons $)"
    },
@@ -205,7 +204,7 @@
     "dip52": 42.74,
     "zirveye": -55.22,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "vekil:SLV",
     "ad": "Gümüş (ons $)"
    },
@@ -222,7 +221,7 @@
     "dip52": 13.47,
     "zirveye": -46.6,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:25",
     "kaynak": "vekil:PPLT",
     "ad": "Platin (ons $)"
    },
@@ -239,7 +238,7 @@
     "dip52": 18.225,
     "zirveye": -50.98,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:PALL",
     "ad": "Paladyum (ons $)"
    },
@@ -256,7 +255,7 @@
     "dip52": 27.2,
     "zirveye": -0.27,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:BNO",
     "ad": "Brent petrol"
    },
@@ -273,24 +272,24 @@
     "dip52": 66.17,
     "zirveye": -0.85,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:USO",
     "ad": "WTI petrol"
    },
    "HO=F": {
-    "fiyat": 4.5955,
-    "gun": -1.47,
-    "hafta": -0.1,
-    "ay1": 0.72,
-    "ay3": 10.98,
-    "ay6": 12.25,
-    "ybb": 114.95,
-    "yil1": 94.54,
+    "fiyat": 4.587,
+    "gun": -0.01,
+    "hafta": -3.73,
+    "ay1": 1.15,
+    "ay3": 10.78,
+    "ay6": 12.04,
+    "ybb": 114.56,
+    "yil1": 91.56,
     "zirve52": 5.1919,
     "dip52": 2.0469,
-    "zirveye": -11.49,
+    "zirveye": -11.65,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Dizel (ULSD)"
    },
@@ -307,24 +306,24 @@
     "dip52": 9.185,
     "zirveye": -45.65,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:UNG",
     "ad": "Doğalgaz (ABD)"
    },
    "TTF=F": {
-    "fiyat": 97.51,
-    "gun": -2.82,
-    "hafta": 8.23,
-    "ay1": 39.19,
-    "ay3": 63.1,
-    "ay6": 109.81,
-    "ybb": 242.38,
-    "yil1": 205.63,
+    "fiyat": 97.921,
+    "gun": -2.41,
+    "hafta": 8.69,
+    "ay1": 39.78,
+    "ay3": 63.79,
+    "ay6": 110.7,
+    "ybb": 243.82,
+    "yil1": 206.91,
     "zirve52": 100.341,
     "dip52": 26.55,
-    "zirveye": -2.82,
+    "zirveye": -2.41,
     "para": "EUR",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Doğalgaz (TTF)"
    },
@@ -341,24 +340,24 @@
     "dip52": 30.53,
     "zirveye": -4.08,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:CPER",
     "ad": "Bakır (libre $)"
    },
    "ALI=F": {
-    "fiyat": 3182,
-    "gun": 0.2,
-    "hafta": 1.92,
-    "ay1": -5.79,
-    "ay3": -5.32,
-    "ay6": -7.49,
-    "ybb": 7.17,
-    "yil1": 12.0,
+    "fiyat": 3181.5,
+    "gun": 0.19,
+    "hafta": 1.91,
+    "ay1": -5.8,
+    "ay3": -5.33,
+    "ay6": -7.5,
+    "ybb": 7.16,
+    "yil1": 11.99,
     "zirve52": 3795,
     "dip52": 2735,
-    "zirveye": -16.15,
+    "zirveye": -16.17,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Alüminyum"
    },
@@ -375,7 +374,7 @@
     "dip52": 19.88,
     "zirveye": -20.89,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:WEAT",
     "ad": "Buğday"
    },
@@ -392,7 +391,7 @@
     "dip52": 16.47,
     "zirveye": -14.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:CORN",
     "ad": "Mısır"
    },
@@ -409,7 +408,7 @@
     "dip52": 21.71,
     "zirveye": -7.14,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:SOYB",
     "ad": "Soya"
    },
@@ -426,7 +425,7 @@
     "dip52": 242.7,
     "zirveye": -31.46,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Kahve"
    },
@@ -443,7 +442,7 @@
     "dip52": 2846,
     "zirveye": -19.97,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Kakao"
    },
@@ -460,7 +459,7 @@
     "dip52": 9.02,
     "zirveye": -6.09,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:CANE",
     "ad": "Şeker"
    },
@@ -477,7 +476,7 @@
     "dip52": 60.9,
     "zirveye": -16.26,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "tradingview",
     "ad": "Pamuk"
    }
@@ -496,7 +495,7 @@
     "dip52": 631.97,
     "zirveye": -1.23,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:SPY",
     "ad": "S&P 500"
    },
@@ -513,7 +512,7 @@
     "dip52": 20794.64,
     "zirveye": -5.13,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Nasdaq Composite"
    },
@@ -530,7 +529,7 @@
     "dip52": 22953.38,
     "zirveye": -5.84,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Nasdaq-100"
    },
@@ -547,7 +546,7 @@
     "dip52": 229.11,
     "zirveye": -6.91,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:IWM",
     "ad": "Russell 2000"
    },
@@ -564,7 +563,7 @@
     "dip52": 451.39,
     "zirveye": -3.69,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:DIA",
     "ad": "Dow Jones"
    },
@@ -581,7 +580,7 @@
     "dip52": 16.02,
     "zirveye": -56.4,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "vekil:VIXY",
     "ad": "VIX (korku endeksi)"
    }
@@ -600,7 +599,7 @@
     "dip52": 14.22,
     "zirveye": -45.33,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "SoFi Technologies"
    },
@@ -617,7 +616,7 @@
     "dip52": 5.27,
     "zirveye": -86.81,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "NuScale Power"
    },
@@ -634,7 +633,7 @@
     "dip52": 138.04,
     "zirveye": -3.97,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Procter & Gamble"
    },
@@ -651,7 +650,7 @@
     "dip52": 120.02,
     "zirveye": -12.74,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Southern Copper"
    },
@@ -668,7 +667,7 @@
     "dip52": 201.37,
     "zirveye": -23.01,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Micron"
    },
@@ -685,7 +684,7 @@
     "dip52": 146.54,
     "zirveye": -33.65,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "T-Mobile US"
    },
@@ -702,7 +701,7 @@
     "dip52": 147.94,
     "zirveye": -31.52,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Booking Holdings"
    },
@@ -719,7 +718,7 @@
     "dip52": 65.27,
     "zirveye": -34.08,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Uber"
    },
@@ -736,7 +735,7 @@
     "dip52": 254.91,
     "zirveye": -65.25,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "AppLovin"
    },
@@ -753,7 +752,7 @@
     "dip52": 8.52,
     "zirveye": -31.17,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Super Group"
    },
@@ -770,7 +769,7 @@
     "dip52": 165.17,
     "zirveye": -10.69,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:26",
     "kaynak": "nasdaq",
     "ad": "Nvidia"
    },
@@ -787,7 +786,7 @@
     "dip52": 293.41,
     "zirveye": -28.36,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "Broadcom"
    },
@@ -804,7 +803,7 @@
     "dip52": 79.2,
     "zirveye": -31.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "CRH"
    },
@@ -821,7 +820,7 @@
     "dip52": 114.99,
     "zirveye": -46.86,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "Oracle"
    }
@@ -840,7 +839,7 @@
     "dip52": 88.53,
     "zirveye": -26.29,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWY"
    },
@@ -857,7 +856,7 @@
     "dip52": 59.5,
     "zirveye": -11.69,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EPU"
    },
@@ -874,7 +873,7 @@
     "dip52": 49.37,
     "zirveye": -9.81,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWP"
    },
@@ -891,7 +890,7 @@
     "dip52": 60.74,
     "zirveye": -8.31,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "GREK"
    },
@@ -908,7 +907,7 @@
     "dip52": 60.43,
     "zirveye": -21.42,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EZA"
    },
@@ -925,7 +924,7 @@
     "dip52": 30.81,
     "zirveye": -10.73,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWO"
    },
@@ -942,7 +941,7 @@
     "dip52": 21.54,
     "zirveye": -10.9,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "VNAM"
    },
@@ -959,7 +958,7 @@
     "dip52": 34.5,
     "zirveye": -25.06,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "ECH"
    },
@@ -976,7 +975,7 @@
     "dip52": 32.56,
     "zirveye": -2.27,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EPOL"
    },
@@ -993,7 +992,7 @@
     "dip52": 35.166,
     "zirveye": -7.78,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "COLO"
    },
@@ -1010,7 +1009,7 @@
     "dip52": 99.4,
     "zirveye": -13.9,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EIS"
    },
@@ -1027,7 +1026,7 @@
     "dip52": 50.7,
     "zirveye": -10.98,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWI"
    },
@@ -1044,7 +1043,7 @@
     "dip52": 65.65,
     "zirveye": -8.3,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWW"
    },
@@ -1061,7 +1060,7 @@
     "dip52": 43.5275,
     "zirveye": -12.56,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EFNL"
    },
@@ -1078,7 +1077,7 @@
     "dip52": 30.97,
     "zirveye": -23.87,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWZ"
    },
@@ -1095,7 +1094,7 @@
     "dip52": 48.96,
     "zirveye": -24.33,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "MCHI"
    },
@@ -1112,7 +1111,7 @@
     "dip52": 20.92,
     "zirveye": -10.33,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWH"
    },
@@ -1129,7 +1128,7 @@
     "dip52": 23.23,
     "zirveye": -5.91,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWK"
    },
@@ -1146,7 +1145,7 @@
     "dip52": 49.72,
     "zirveye": -1.79,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWC"
    },
@@ -1163,7 +1162,7 @@
     "dip52": 55.33,
     "zirveye": -8.29,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWN"
    },
@@ -1180,7 +1179,7 @@
     "dip52": 38.08,
     "zirveye": -4.89,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWG"
    },
@@ -1197,7 +1196,7 @@
     "dip52": 45.38,
     "zirveye": -4.9,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWD"
    },
@@ -1214,7 +1213,7 @@
     "dip52": 41.34,
     "zirveye": -3.42,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWU"
    },
@@ -1231,7 +1230,7 @@
     "dip52": 55.06,
     "zirveye": -1.43,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWL"
    },
@@ -1248,7 +1247,7 @@
     "dip52": 60.03,
     "zirveye": -10.16,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWT"
    },
@@ -1265,7 +1264,7 @@
     "dip52": 26.71,
     "zirveye": -10.65,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWS"
    },
@@ -1282,7 +1281,7 @@
     "dip52": 66.098,
     "zirveye": -3.24,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EIRL"
    },
@@ -1299,7 +1298,7 @@
     "dip52": 79.49,
     "zirveye": -4.46,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWJ"
    },
@@ -1316,7 +1315,7 @@
     "dip52": 41.24,
     "zirveye": -12.35,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWQ"
    },
@@ -1333,7 +1332,7 @@
     "dip52": 26.75,
     "zirveye": -1.05,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "ENOR"
    },
@@ -1350,7 +1349,7 @@
     "dip52": 580.93,
     "zirveye": -1.24,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "VOO"
    },
@@ -1367,7 +1366,7 @@
     "dip52": 25.85,
     "zirveye": -11.87,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWM"
    },
@@ -1384,7 +1383,7 @@
     "dip52": 34.32,
     "zirveye": -13.66,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "KWT"
    },
@@ -1401,7 +1400,7 @@
     "dip52": 17.45,
     "zirveye": -13.5,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "UAE"
    },
@@ -1418,7 +1417,7 @@
     "dip52": 99.01,
     "zirveye": -7.28,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EDEN"
    },
@@ -1435,7 +1434,7 @@
     "dip52": 81.47,
     "zirveye": -20.86,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "ARGT"
    },
@@ -1452,7 +1451,7 @@
     "dip52": 15.1811,
     "zirveye": -19.4,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "QAT"
    },
@@ -1469,7 +1468,7 @@
     "dip52": 24.95,
     "zirveye": -2.65,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:27",
     "kaynak": "nasdaq",
     "ad": "EWA"
    },
@@ -1486,7 +1485,7 @@
     "dip52": 22.26,
     "zirveye": -20.94,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "EPHE"
    },
@@ -1503,7 +1502,7 @@
     "dip52": 45.42,
     "zirveye": -13.51,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "INDA"
    },
@@ -1520,7 +1519,7 @@
     "dip52": 30.715,
     "zirveye": -29.7,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "TUR"
    },
@@ -1537,7 +1536,7 @@
     "dip52": 9.61,
     "zirveye": -47.61,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "EIDO"
    },
@@ -1554,7 +1553,7 @@
     "dip52": 41.8016,
     "zirveye": -9.13,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "ENZL"
    },
@@ -1571,7 +1570,7 @@
     "dip52": 57.86,
     "zirveye": -6.82,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "THD"
    },
@@ -1588,7 +1587,7 @@
     "dip52": 33.69,
     "zirveye": -15.22,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "KSA"
    }
@@ -1607,7 +1606,7 @@
     "dip52": 362.32,
     "zirveye": -25.68,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GLD"
    },
@@ -1624,7 +1623,7 @@
     "dip52": 74.21,
     "zirveye": -25.6,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "IAU"
    },
@@ -1641,7 +1640,7 @@
     "dip52": 77.96,
     "zirveye": -25.5,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GLDM"
    },
@@ -1658,7 +1657,7 @@
     "dip52": 37.54,
     "zirveye": -25.55,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SGOL"
    },
@@ -1675,7 +1674,7 @@
     "dip52": 38.88,
     "zirveye": -25.53,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "AAAU"
    },
@@ -1692,7 +1691,7 @@
     "dip52": 56.01,
     "zirveye": -28.28,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SGDM"
    },
@@ -1709,7 +1708,7 @@
     "dip52": 58.29,
     "zirveye": -28.74,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "RING"
    },
@@ -1726,7 +1725,7 @@
     "dip52": 68.28,
     "zirveye": -29.78,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GDX"
    },
@@ -1743,7 +1742,7 @@
     "dip52": 87.56,
     "zirveye": -35.4,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GDXJ"
    },
@@ -1760,7 +1759,7 @@
     "dip52": 34.88,
     "zirveye": -29.5,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GOAU"
    },
@@ -1777,7 +1776,7 @@
     "dip52": 44.9,
     "zirveye": -55.16,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SIVR"
    },
@@ -1794,7 +1793,7 @@
     "dip52": 42.74,
     "zirveye": -55.22,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SLV"
    },
@@ -1811,7 +1810,7 @@
     "dip52": 62.2,
     "zirveye": -36.14,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SIL"
    },
@@ -1828,7 +1827,7 @@
     "dip52": 20.76,
     "zirveye": -40.76,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SILJ"
    },
@@ -1845,7 +1844,7 @@
     "dip52": 168.63,
     "zirveye": -39.53,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GLTR"
    },
@@ -1862,7 +1861,7 @@
     "dip52": 13.47,
     "zirveye": -46.6,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "PPLT"
    },
@@ -1879,7 +1878,7 @@
     "dip52": 18.225,
     "zirveye": -50.98,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "PALL"
    },
@@ -1896,7 +1895,7 @@
     "dip52": 54.18,
     "zirveye": -16.06,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "IGPT"
    },
@@ -1913,7 +1912,7 @@
     "dip52": 44.2,
     "zirveye": -10.75,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "ARTY"
    },
@@ -1930,7 +1929,7 @@
     "dip52": 55.88,
     "zirveye": -10.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "THNQ"
    },
@@ -1947,7 +1946,7 @@
     "dip52": 26.73,
     "zirveye": -19.64,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "WTAI"
    },
@@ -1964,7 +1963,7 @@
     "dip52": 56.92,
     "zirveye": -22.13,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "CHAT"
    },
@@ -1981,7 +1980,7 @@
     "dip52": 44.78,
     "zirveye": -10.27,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "AIQ"
    },
@@ -1998,7 +1997,7 @@
     "dip52": 111.7643,
     "zirveye": -22.83,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "FTXL"
    },
@@ -2015,7 +2014,7 @@
     "dip52": 268.1,
     "zirveye": -21.55,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SOXX"
    },
@@ -2032,7 +2031,7 @@
     "dip52": 68.75,
     "zirveye": -31.22,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "PSI"
    },
@@ -2049,7 +2048,7 @@
     "dip52": 50.04,
     "zirveye": -21.27,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SOXQ"
    },
@@ -2066,7 +2065,7 @@
     "dip52": 325.1,
     "zirveye": -16.03,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "SMH"
    },
@@ -2083,7 +2082,7 @@
     "dip52": 127.5,
     "zirveye": -6.57,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "XLK"
    },
@@ -2100,7 +2099,7 @@
     "dip52": 173.53,
     "zirveye": -6.98,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "IYW"
    },
@@ -2117,7 +2116,7 @@
     "dip52": 199.44,
     "zirveye": -5.88,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "FTEC"
    },
@@ -2134,7 +2133,7 @@
     "dip52": 83.5875,
     "zirveye": -5.83,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "VGT"
    },
@@ -2151,7 +2150,7 @@
     "dip52": 558.28,
     "zirveye": -5.83,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "QQQ"
    },
@@ -2168,7 +2167,7 @@
     "dip52": 19.73,
     "zirveye": -18.82,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "DTCR"
    },
@@ -2185,7 +2184,7 @@
     "dip52": 45.51,
     "zirveye": -9.18,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "PAVE"
    },
@@ -2202,7 +2201,7 @@
     "dip52": 146.51,
     "zirveye": -14.74,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:28",
     "kaynak": "nasdaq",
     "ad": "GRID"
    },
@@ -2219,7 +2218,7 @@
     "dip52": 39.25,
     "zirveye": -9.62,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "XLU"
    },
@@ -2236,7 +2235,7 @@
     "dip52": 27.2,
     "zirveye": -20.06,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "SRVR"
    },
@@ -2253,7 +2252,7 @@
     "dip52": 56.25,
     "zirveye": -23.17,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "NUKZ"
    },
@@ -2270,7 +2269,7 @@
     "dip52": 41.54,
     "zirveye": -46.66,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "URNM"
    },
@@ -2287,7 +2286,7 @@
     "dip52": 34.09,
     "zirveye": -42.19,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "URA"
    },
@@ -2304,7 +2303,7 @@
     "dip52": 90.38,
     "zirveye": -41.83,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "NLR"
    },
@@ -2321,7 +2320,7 @@
     "dip52": 16.695,
     "zirveye": -54.84,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "URNJ"
    },
@@ -2338,7 +2337,7 @@
     "dip52": 22.74,
     "zirveye": -3.67,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "WCBR"
    },
@@ -2355,7 +2354,7 @@
     "dip52": 70.69,
     "zirveye": -2.98,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "HACK"
    },
@@ -2372,7 +2371,7 @@
     "dip52": 60.74,
     "zirveye": -4.55,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "CIBR"
    },
@@ -2389,7 +2388,7 @@
     "dip52": 41.26,
     "zirveye": -1.94,
     "para": "USD",
-    "zaman": "29.10.2026 23:11",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "IHAK"
    },
@@ -2406,7 +2405,7 @@
     "dip52": 23.3,
     "zirveye": -2.54,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "BUG"
    },
@@ -2423,7 +2422,7 @@
     "dip52": 72.9325,
     "zirveye": -22.46,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "ROKT"
    },
@@ -2440,7 +2439,7 @@
     "dip52": 146.12,
     "zirveye": -12.61,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "PPA"
    },
@@ -2457,7 +2456,7 @@
     "dip52": 198.23,
     "zirveye": -15.31,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "ITA"
    },
@@ -2474,7 +2473,7 @@
     "dip52": 31.4448,
     "zirveye": -38.47,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "UFO"
    },
@@ -2491,7 +2490,7 @@
     "dip52": 25.74,
     "zirveye": -17.86,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "ARKX"
    },
@@ -2508,7 +2507,7 @@
     "dip52": 123.96,
     "zirveye": -2.62,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "XOP"
    },
@@ -2525,7 +2524,7 @@
     "dip52": 43.595,
     "zirveye": -1.34,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "XLE"
    },
@@ -2542,7 +2541,7 @@
     "dip52": 123.11,
     "zirveye": -1.26,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "VDE"
    },
@@ -2559,7 +2558,7 @@
     "dip52": 40.58,
     "zirveye": -1.05,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "IXC"
    },
@@ -2576,7 +2575,7 @@
     "dip52": 274.41,
     "zirveye": -10.18,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "OIH"
    },
@@ -2593,7 +2592,7 @@
     "dip52": 19.2145,
     "zirveye": -18.75,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "FAN"
    },
@@ -2610,7 +2609,7 @@
     "dip52": 15.55,
     "zirveye": -33.94,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "ICLN"
    },
@@ -2627,7 +2626,7 @@
     "dip52": 41.1043,
     "zirveye": -34.73,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "QCLN"
    },
@@ -2644,7 +2643,7 @@
     "dip52": 40.76,
     "zirveye": -44.23,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "TAN"
    },
@@ -2661,7 +2660,7 @@
     "dip52": 24.47,
     "zirveye": -44.52,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "PBW"
    },
@@ -2678,7 +2677,7 @@
     "dip52": 70.9713,
     "zirveye": -19.12,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "CARZ"
    },
@@ -2695,7 +2694,7 @@
     "dip52": 59.25,
     "zirveye": -33.56,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "LIT"
    },
@@ -2712,7 +2711,7 @@
     "dip52": 27.6041,
     "zirveye": -28.76,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "DRIV"
    },
@@ -2729,7 +2728,7 @@
     "dip52": 12.55,
     "zirveye": -27.73,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "BATT"
    },
@@ -2746,7 +2745,7 @@
     "dip52": 30.37,
     "zirveye": -32.45,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "IDRV"
    },
@@ -2763,7 +2762,7 @@
     "dip52": 38.242,
     "zirveye": -9.72,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "VEGI"
    },
@@ -2780,7 +2779,7 @@
     "dip52": 69.32,
     "zirveye": -9.14,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "MOO"
    },
@@ -2797,7 +2796,7 @@
     "dip52": 25.44,
     "zirveye": -7.88,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "DBA"
    },
@@ -2814,7 +2813,7 @@
     "dip52": 42.7105,
     "zirveye": -7.24,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "PBJ"
    },
@@ -2831,7 +2830,7 @@
     "dip52": 139.22,
     "zirveye": -7.46,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "IYM"
    },
@@ -2848,7 +2847,7 @@
     "dip52": 42.23,
     "zirveye": -2.13,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "XLB"
    },
@@ -2865,7 +2864,7 @@
     "dip52": 190.36,
     "zirveye": -6.08,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "VAW"
    },
@@ -2882,7 +2881,7 @@
     "dip52": 48.779,
     "zirveye": -6.25,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:29",
     "kaynak": "nasdaq",
     "ad": "FMAT"
    },
@@ -2899,7 +2898,7 @@
     "dip52": 75.8225,
     "zirveye": -10.92,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "SLX"
    },
@@ -2916,7 +2915,7 @@
     "dip52": 57.43,
     "zirveye": -21.32,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "COPX"
    },
@@ -2933,7 +2932,7 @@
     "dip52": 44.57,
     "zirveye": -18.25,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "PICK"
    },
@@ -2950,7 +2949,7 @@
     "dip52": 87.44,
     "zirveye": -23.92,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XME"
    },
@@ -2967,7 +2966,7 @@
     "dip52": 51.46,
     "zirveye": -51.88,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "REMX"
    },
@@ -2984,7 +2983,7 @@
     "dip52": 79.2,
     "zirveye": -15.64,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XTN"
    },
@@ -3001,7 +3000,7 @@
     "dip52": 68.14,
     "zirveye": -9.37,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "IYT"
    },
@@ -3018,7 +3017,7 @@
     "dip52": 23.64,
     "zirveye": -18.01,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "JETS"
    },
@@ -3035,7 +3034,7 @@
     "dip52": 58.63,
     "zirveye": -6.51,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "KRE"
    },
@@ -3052,7 +3051,7 @@
     "dip52": 55.19,
     "zirveye": -7.24,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "KBE"
    },
@@ -3069,7 +3068,7 @@
     "dip52": 47.81,
     "zirveye": -2.82,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XLF"
    },
@@ -3086,7 +3085,7 @@
     "dip52": 117.0,
     "zirveye": -3.31,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "VFH"
    },
@@ -3103,7 +3102,7 @@
     "dip52": 158.28,
     "zirveye": -8.99,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "IAI"
    },
@@ -3120,7 +3119,7 @@
     "dip52": 108.04,
     "zirveye": -6.94,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XBI"
    },
@@ -3137,7 +3136,7 @@
     "dip52": 156.08,
     "zirveye": 0.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "IBB"
    },
@@ -3154,7 +3153,7 @@
     "dip52": 142.84,
     "zirveye": 0.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XLV"
    },
@@ -3171,7 +3170,7 @@
     "dip52": 265.36,
     "zirveye": 0.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "VHT"
    },
@@ -3188,7 +3187,7 @@
     "dip52": 47.55,
     "zirveye": -13.6,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "IHI"
    },
@@ -3205,7 +3204,7 @@
     "dip52": 47.36,
     "zirveye": -22.31,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "BLOK"
    },
@@ -3222,7 +3221,7 @@
     "dip52": 33.29,
     "zirveye": -26.63,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "IBIT"
    },
@@ -3239,7 +3238,7 @@
     "dip52": 16.74,
     "zirveye": -26.8,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "BITQ"
    },
@@ -3256,7 +3255,7 @@
     "dip52": 51.05,
     "zirveye": -26.61,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "FBTC"
    },
@@ -3273,7 +3272,7 @@
     "dip52": 35.2204,
     "zirveye": -40.08,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "ETHA"
    },
@@ -3290,7 +3289,7 @@
     "dip52": 20.7,
     "zirveye": -7.28,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "SCHH"
    },
@@ -3307,7 +3306,7 @@
     "dip52": 87.0,
     "zirveye": -7.02,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "VNQ"
    },
@@ -3324,7 +3323,7 @@
     "dip52": 40.01,
     "zirveye": -6.42,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XLRE"
    },
@@ -3341,7 +3340,7 @@
     "dip52": 75.6,
     "zirveye": -2.07,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XLP"
    },
@@ -3358,7 +3357,7 @@
     "dip52": 347.69,
     "zirveye": -5.89,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "VCR"
    },
@@ -3375,7 +3374,7 @@
     "dip52": 105.66,
     "zirveye": -6.72,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XLY"
    },
@@ -3392,7 +3391,7 @@
     "dip52": 26.44,
     "zirveye": 0.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "SCHD"
    },
@@ -3409,7 +3408,7 @@
     "dip52": 23.644,
     "zirveye": 0.0,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "HDV"
    },
@@ -3426,7 +3425,7 @@
     "dip52": 42.28,
     "zirveye": -0.4,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "FDL"
    },
@@ -3443,7 +3442,7 @@
     "dip52": 84.63,
     "zirveye": -4.91,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "VYMI"
    },
@@ -3460,7 +3459,7 @@
     "dip52": 97.62,
     "zirveye": -0.77,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "DHS"
    },
@@ -3477,7 +3476,7 @@
     "dip52": 53.77,
     "zirveye": -3.38,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "JEPQ"
    },
@@ -3494,7 +3493,7 @@
     "dip52": 16.7,
     "zirveye": -2.13,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "QYLD"
    },
@@ -3511,7 +3510,7 @@
     "dip52": 38.36,
     "zirveye": -1.01,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "XYLD"
    },
@@ -3528,7 +3527,7 @@
     "dip52": 22.9,
     "zirveye": -13.04,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "SDIV"
    },
@@ -3545,7 +3544,7 @@
     "dip52": 55.29,
     "zirveye": -3.27,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "JEPI"
    },
@@ -3562,7 +3561,7 @@
     "dip52": 57.46,
     "zirveye": -4.1,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "HLAL"
    },
@@ -3579,7 +3578,7 @@
     "dip52": 27.3352,
     "zirveye": -9.47,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "UMMA"
    },
@@ -3596,7 +3595,7 @@
     "dip52": 46.65,
     "zirveye": -2.26,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:30",
     "kaynak": "nasdaq",
     "ad": "SPUS"
    },
@@ -3613,7 +3612,7 @@
     "dip52": 18.37,
     "zirveye": -14.45,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "SPRE"
    },
@@ -3630,7 +3629,7 @@
     "dip52": 17.37,
     "zirveye": -5.91,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "SPSK"
    },
@@ -3647,7 +3646,7 @@
     "dip52": 311.68,
     "zirveye": -1.56,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "VTI"
    },
@@ -3664,7 +3663,7 @@
     "dip52": 451.39,
     "zirveye": -3.69,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "DIA"
    },
@@ -3681,7 +3680,7 @@
     "dip52": 229.11,
     "zirveye": -6.91,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "IWM"
    },
@@ -3698,7 +3697,7 @@
     "dip52": 100.28,
     "zirveye": -0.01,
     "para": "USD",
-    "zaman": "29.10.2026 23:12",
+    "zaman": "30.10.2026 02:31",
     "kaynak": "nasdaq",
     "ad": "SGOV"
    }
