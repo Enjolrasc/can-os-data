@@ -1352,16 +1352,6 @@
  {
   "gun_tarihi": "2026-10-29",
   "zaman": "29.10.2026 09:50",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 4.71,
-  "fiyat": 100.341,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 09:50",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -1398,5 +1388,45 @@
   "degisim": -4.86,
   "fiyat": 118.3,
   "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 16:47",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -4.1,
+  "fiyat": 47.0499,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 16:47",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -4.36,
+  "fiyat": 13.38,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 16:47",
+  "grup": "emtia",
+  "sembol": "HO=F",
+  "ad": "Dizel (ULSD)",
+  "degisim": -3.52,
+  "fiyat": 4.4999,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 16:47",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -3.23,
+  "fiyat": 97.1,
+  "esik": 3.0
  }
 ]
