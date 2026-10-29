@@ -1322,56 +1322,6 @@
  {
   "gun_tarihi": "2026-10-29",
   "zaman": "29.10.2026 03:40",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 4.71,
-  "fiyat": 100.341,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 03:40",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.13,
-  "fiyat": 17.02,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 03:40",
-  "grup": "abd_hisse",
-  "sembol": "ORCL",
-  "ad": "Oracle",
-  "degisim": 10.58,
-  "fiyat": 144.34,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 03:40",
-  "grup": "ulke_etf",
-  "sembol": "EWY",
-  "ad": "EWY",
-  "degisim": 5.35,
-  "fiyat": 165.88,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 03:40",
-  "grup": "ulke_etf",
-  "sembol": "EIS",
-  "ad": "EIS",
-  "degisim": -4.94,
-  "fiyat": 118.195,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-29",
-  "zaman": "29.10.2026 03:40",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
@@ -1398,5 +1348,55 @@
   "degisim": 5.48,
   "fiyat": 25.81,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 04:08",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 4.71,
+  "fiyat": 100.341,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 04:08",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.13,
+  "fiyat": 17.02,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 04:08",
+  "grup": "abd_hisse",
+  "sembol": "ORCL",
+  "ad": "Oracle",
+  "degisim": 10.73,
+  "fiyat": 144.54,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 04:08",
+  "grup": "ulke_etf",
+  "sembol": "EWY",
+  "ad": "EWY",
+  "degisim": 5.37,
+  "fiyat": 165.91,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-29",
+  "zaman": "29.10.2026 04:08",
+  "grup": "ulke_etf",
+  "sembol": "EIS",
+  "ad": "EIS",
+  "degisim": -4.86,
+  "fiyat": 118.3,
+  "esik": 4.0
  }
 ]
