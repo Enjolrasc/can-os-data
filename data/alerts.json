@@ -1071,46 +1071,6 @@
  },
  {
   "gun_tarihi": "2026-10-30",
-  "zaman": "30.10.2026 03:41",
-  "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -3.61,
-  "fiyat": 47.29,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-30",
-  "zaman": "30.10.2026 03:41",
-  "grup": "emtia",
-  "sembol": "PL=F",
-  "ad": "Platin (ons $)",
-  "degisim": -3.72,
-  "fiyat": 13.47,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-30",
-  "zaman": "30.10.2026 03:41",
-  "grup": "emtia",
-  "sembol": "NG=F",
-  "ad": "Doğalgaz (ABD)",
-  "degisim": -3.32,
-  "fiyat": 9.185,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-30",
-  "zaman": "30.10.2026 04:14",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.13,
-  "fiyat": 17.02,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-30",
   "zaman": "30.10.2026 04:14",
   "grup": "ulke_etf",
   "sembol": "EWY",
@@ -1128,5 +1088,45 @@
   "degisim": -4.86,
   "fiyat": 118.3,
   "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-10-30",
+  "zaman": "30.10.2026 09:54",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -3.63,
+  "fiyat": 47.28,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-30",
+  "zaman": "30.10.2026 09:54",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -3.65,
+  "fiyat": 13.48,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-30",
+  "zaman": "30.10.2026 09:54",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -3.37,
+  "fiyat": 9.18,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-30",
+  "zaman": "30.10.2026 09:54",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.12,
+  "fiyat": 16.66,
+  "esik": 2.0
  }
 ]
