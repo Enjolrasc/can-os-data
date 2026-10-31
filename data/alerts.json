@@ -1432,66 +1432,6 @@
  {
   "gun_tarihi": "2026-10-31",
   "zaman": "31.10.2026 03:34",
-  "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -5.73,
-  "fiyat": 44.57,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
-  "grup": "emtia",
-  "sembol": "PL=F",
-  "ad": "Platin (ons $)",
-  "degisim": -3.56,
-  "fiyat": 13.0,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 6.15,
-  "fiyat": 103.944,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
-  "grup": "endeks",
-  "sembol": "^IXIC",
-  "ad": "Nasdaq Composite",
-  "degisim": -2.86,
-  "fiyat": 25437.0,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
-  "grup": "endeks",
-  "sembol": "^NDX",
-  "ad": "Nasdaq-100",
-  "degisim": -3.46,
-  "fiyat": 28384.85,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.12,
-  "fiyat": 16.66,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-31",
-  "zaman": "31.10.2026 03:34",
   "grup": "abd_hisse",
   "sembol": "TMUS",
   "ad": "T-Mobile US",
@@ -1688,5 +1628,65 @@
   "degisim": -5.07,
   "fiyat": 66.67,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -5.73,
+  "fiyat": 44.57,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -3.65,
+  "fiyat": 13.48,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 6.15,
+  "fiyat": 103.944,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "endeks",
+  "sembol": "^IXIC",
+  "ad": "Nasdaq Composite",
+  "degisim": -2.86,
+  "fiyat": 25437.0,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "endeks",
+  "sembol": "^NDX",
+  "ad": "Nasdaq-100",
+  "degisim": -3.46,
+  "fiyat": 28384.85,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-10-31",
+  "zaman": "31.10.2026 03:56",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -2.12,
+  "fiyat": 16.66,
+  "esik": 2.0
  }
 ]
