@@ -1973,30 +1973,10 @@
   "gun_tarihi": "2026-11-02",
   "zaman": "02.11.2026 10:29",
   "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -5.67,
-  "fiyat": 44.6,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "emtia",
   "sembol": "PL=F",
   "ad": "Platin (ons $)",
   "degisim": -3.49,
   "fiyat": 13.01,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 6.15,
-  "fiyat": 103.944,
   "esik": 3.0
  },
  {
@@ -2017,16 +1997,6 @@
   "ad": "Nasdaq-100",
   "degisim": -3.46,
   "fiyat": 28384.85,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 10.5,
-  "fiyat": 18.41,
   "esik": 2.0
  },
  {
@@ -2367,6 +2337,106 @@
   "ad": "FBTC",
   "degisim": -5.01,
   "fiyat": 66.71,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": 3.14,
+  "fiyat": 46.0001,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": -6.61,
+  "fiyat": 66.67,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": -6.14,
+  "fiyat": 158.46,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "emtia",
+  "sembol": "HO=F",
+  "ad": "Dizel (ULSD)",
+  "degisim": -4.64,
+  "fiyat": 4.459,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -8.58,
+  "fiyat": 95.03,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -4.45,
+  "fiyat": 17.59,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "abd_hisse",
+  "sembol": "CRH",
+  "ad": "CRH",
+  "degisim": 6.23,
+  "fiyat": 96.465,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "ulke_etf",
+  "sembol": "QAT",
+  "ad": "QAT",
+  "degisim": 4.42,
+  "fiyat": 16.88,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "tema_etf",
+  "sembol": "TAN",
+  "ad": "TAN",
+  "degisim": 5.6,
+  "fiyat": 42.45,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-02",
+  "zaman": "02.11.2026 19:37",
+  "grup": "tema_etf",
+  "sembol": "JETS",
+  "ad": "JETS",
+  "degisim": 5.61,
+  "fiyat": 28.44,
   "esik": 5.0
  }
 ]
