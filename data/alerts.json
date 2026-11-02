@@ -1,135 +1,5 @@
 [
  {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "emtia",
-  "sembol": "BZ=F",
-  "ad": "Brent petrol",
-  "degisim": 3.02,
-  "fiyat": 70.99,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "emtia",
-  "sembol": "CL=F",
-  "ad": "WTI petrol",
-  "degisim": 4.32,
-  "fiyat": 169.53,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "emtia",
-  "sembol": "NG=F",
-  "ad": "Doğalgaz (ABD)",
-  "degisim": -3.13,
-  "fiyat": 9.58,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 4.23,
-  "fiyat": 93.853,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "abd_hisse",
-  "sembol": "TMUS",
-  "ad": "T-Mobile US",
-  "degisim": -7.71,
-  "fiyat": 146.54,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "tema_etf",
-  "sembol": "WCBR",
-  "ad": "WCBR",
-  "degisim": 5.04,
-  "fiyat": 49.4963,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 08:52",
-  "grup": "tema_etf",
-  "sembol": "OIH",
-  "ad": "OIH",
-  "degisim": 5.4,
-  "fiyat": 397.36,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 16:39",
-  "grup": "emtia",
-  "sembol": "KC=F",
-  "ad": "Kahve",
-  "degisim": -3.71,
-  "fiyat": 296.05,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 16:39",
-  "grup": "tema_etf",
-  "sembol": "SDIV",
-  "ad": "SDIV",
-  "degisim": -5.12,
-  "fiyat": 22.99,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 22:36",
-  "grup": "emtia",
-  "sembol": "SB=F",
-  "ad": "Şeker",
-  "degisim": -5.6,
-  "fiyat": 11.47,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 22:36",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.11,
-  "fiyat": 17.5425,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 22:36",
-  "grup": "ulke_etf",
-  "sembol": "EWZ",
-  "ad": "EWZ",
-  "degisim": -19.15,
-  "fiyat": 34.435,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-10-26",
-  "zaman": "26.10.2026 22:36",
-  "grup": "ulke_etf",
-  "sembol": "ARGT",
-  "ad": "ARGT",
-  "degisim": -4.67,
-  "fiyat": 83.01,
-  "esik": 4.0
- },
- {
   "gun_tarihi": "2026-10-27",
   "zaman": "27.10.2026 03:40",
   "grup": "tema_etf",
@@ -2437,6 +2307,96 @@
   "ad": "JETS",
   "degisim": 5.61,
   "fiyat": 28.44,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": -7.61,
+  "fiyat": 65.96,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": -7.07,
+  "fiyat": 156.9,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -8.74,
+  "fiyat": 94.861,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "abd_hisse",
+  "sembol": "CRH",
+  "ad": "CRH",
+  "degisim": 6.38,
+  "fiyat": 96.6,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "abd_hisse",
+  "sembol": "ORCL",
+  "ad": "Oracle",
+  "degisim": -8.85,
+  "fiyat": 119.1,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "ulke_etf",
+  "sembol": "QAT",
+  "ad": "QAT",
+  "degisim": 5.04,
+  "fiyat": 16.98,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "tema_etf",
+  "sembol": "WCBR",
+  "ad": "WCBR",
+  "degisim": -6.63,
+  "fiyat": 44.975,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "tema_etf",
+  "sembol": "BUG",
+  "ad": "BUG",
+  "degisim": -5.87,
+  "fiyat": 46.47,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 02:42",
+  "grup": "tema_etf",
+  "sembol": "OIH",
+  "ad": "OIH",
+  "degisim": -5.5,
+  "fiyat": 388.95,
   "esik": 5.0
  }
 ]
