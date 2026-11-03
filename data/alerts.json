@@ -2323,26 +2323,6 @@
   "gun_tarihi": "2026-11-03",
   "zaman": "03.11.2026 12:41",
   "grup": "emtia",
-  "sembol": "BZ=F",
-  "ad": "Brent petrol",
-  "degisim": -7.62,
-  "fiyat": 65.95,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
-  "grup": "emtia",
-  "sembol": "CL=F",
-  "ad": "WTI petrol",
-  "degisim": -7.08,
-  "fiyat": 156.87,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
-  "grup": "emtia",
   "sembol": "HO=F",
   "ad": "Dizel (ULSD)",
   "degisim": 3.47,
@@ -2361,7 +2341,27 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": -7.62,
+  "fiyat": 65.95,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 13:11",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": -7.08,
+  "fiyat": 156.87,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 13:11",
   "grup": "abd_hisse",
   "sembol": "CRH",
   "ad": "CRH",
@@ -2371,7 +2371,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
@@ -2381,7 +2381,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "ulke_etf",
   "sembol": "QAT",
   "ad": "QAT",
@@ -2391,7 +2391,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -2401,7 +2401,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -2411,7 +2411,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "tema_etf",
   "sembol": "XOP",
   "ad": "XOP",
@@ -2421,7 +2421,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
+  "zaman": "03.11.2026 13:11",
   "grup": "tema_etf",
   "sembol": "OIH",
   "ad": "OIH",
