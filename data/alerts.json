@@ -2311,27 +2311,27 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
-  "degisim": -7.61,
-  "fiyat": 65.96,
+  "degisim": -7.62,
+  "fiyat": 65.95,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
-  "degisim": -7.07,
-  "fiyat": 156.9,
+  "degisim": -7.08,
+  "fiyat": 156.87,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
@@ -2341,27 +2341,27 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "abd_hisse",
   "sembol": "CRH",
   "ad": "CRH",
-  "degisim": 6.38,
-  "fiyat": 96.6,
+  "degisim": 6.36,
+  "fiyat": 96.59,
   "esik": 6.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
-  "degisim": -8.85,
-  "fiyat": 119.1,
+  "degisim": -8.76,
+  "fiyat": 119.22,
   "esik": 6.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "ulke_etf",
   "sembol": "QAT",
   "ad": "QAT",
@@ -2371,7 +2371,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -2381,7 +2381,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -2391,12 +2391,22 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 02:42",
+  "zaman": "03.11.2026 05:49",
+  "grup": "tema_etf",
+  "sembol": "XOP",
+  "ad": "XOP",
+  "degisim": -5.01,
+  "fiyat": 193.56,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 05:49",
   "grup": "tema_etf",
   "sembol": "OIH",
   "ad": "OIH",
-  "degisim": -5.5,
-  "fiyat": 388.95,
+  "degisim": -5.48,
+  "fiyat": 389.03,
   "esik": 5.0
  }
 ]
