@@ -2333,6 +2333,16 @@
   "gun_tarihi": "2026-11-03",
   "zaman": "03.11.2026 15:11",
   "grup": "emtia",
+  "sembol": "HO=F",
+  "ad": "Dizel (ULSD)",
+  "degisim": 3.93,
+  "fiyat": 4.5953,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 15:41",
+  "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
   "degisim": -7.62,
@@ -2341,7 +2351,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
@@ -2351,17 +2361,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
-  "grup": "emtia",
-  "sembol": "HO=F",
-  "ad": "Dizel (ULSD)",
-  "degisim": 3.93,
-  "fiyat": 4.5953,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "abd_hisse",
   "sembol": "CRH",
   "ad": "CRH",
@@ -2371,7 +2371,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
@@ -2381,7 +2381,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "ulke_etf",
   "sembol": "QAT",
   "ad": "QAT",
@@ -2391,7 +2391,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -2401,7 +2401,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -2411,7 +2411,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "tema_etf",
   "sembol": "XOP",
   "ad": "XOP",
@@ -2421,7 +2421,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
+  "zaman": "03.11.2026 15:41",
   "grup": "tema_etf",
   "sembol": "OIH",
   "ad": "OIH",
