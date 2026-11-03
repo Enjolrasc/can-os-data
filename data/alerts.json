@@ -2321,16 +2321,6 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 12:41",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 3.52,
-  "fiyat": 98.2,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-03",
   "zaman": "03.11.2026 15:11",
   "grup": "emtia",
   "sembol": "HO=F",
@@ -2428,5 +2418,15 @@
   "degisim": -5.48,
   "fiyat": 389.03,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 17:41",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -3.31,
+  "fiyat": 91.72,
+  "esik": 3.0
  }
 ]
