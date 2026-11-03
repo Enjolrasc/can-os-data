@@ -2331,7 +2331,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
@@ -2341,7 +2341,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
@@ -2351,17 +2351,17 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "emtia",
   "sembol": "HO=F",
   "ad": "Dizel (ULSD)",
-  "degisim": 3.89,
-  "fiyat": 4.5935,
+  "degisim": 3.93,
+  "fiyat": 4.5953,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "abd_hisse",
   "sembol": "CRH",
   "ad": "CRH",
@@ -2371,7 +2371,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
@@ -2381,7 +2381,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "ulke_etf",
   "sembol": "QAT",
   "ad": "QAT",
@@ -2391,7 +2391,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -2401,7 +2401,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -2411,7 +2411,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "tema_etf",
   "sembol": "XOP",
   "ad": "XOP",
@@ -2421,12 +2421,12 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 14:41",
+  "zaman": "03.11.2026 15:11",
   "grup": "tema_etf",
   "sembol": "OIH",
   "ad": "OIH",
-  "degisim": -5.76,
-  "fiyat": 387.88,
+  "degisim": -5.48,
+  "fiyat": 389.03,
   "esik": 5.0
  }
 ]
