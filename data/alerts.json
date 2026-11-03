@@ -2321,16 +2321,6 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 15:11",
-  "grup": "emtia",
-  "sembol": "HO=F",
-  "ad": "Dizel (ULSD)",
-  "degisim": 3.93,
-  "fiyat": 4.5953,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-03",
   "zaman": "03.11.2026 15:41",
   "grup": "emtia",
   "sembol": "BZ=F",
@@ -2428,5 +2418,55 @@
   "degisim": -3.31,
   "fiyat": 91.72,
   "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 23:40",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": -3.21,
+  "fiyat": 16.8999,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 23:40",
+  "grup": "emtia",
+  "sembol": "HO=F",
+  "ad": "Dizel (ULSD)",
+  "degisim": 3.02,
+  "fiyat": 4.5552,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 23:40",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": -3.27,
+  "fiyat": 11.085,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 23:40",
+  "grup": "abd_hisse",
+  "sembol": "APP",
+  "ad": "AppLovin",
+  "degisim": 7.68,
+  "fiyat": 246.435,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 23:40",
+  "grup": "tema_etf",
+  "sembol": "BITQ",
+  "ad": "BITQ",
+  "degisim": 5.21,
+  "fiyat": 19.875,
+  "esik": 5.0
  }
 ]
