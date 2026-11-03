@@ -2311,7 +2311,17 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -3.42,
+  "fiyat": 48.985,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-03",
+  "zaman": "03.11.2026 11:41",
   "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
@@ -2321,7 +2331,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
@@ -2331,17 +2341,17 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
-  "degisim": -8.74,
-  "fiyat": 94.861,
+  "degisim": 3.52,
+  "fiyat": 98.2,
   "esik": 3.0
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "abd_hisse",
   "sembol": "CRH",
   "ad": "CRH",
@@ -2351,7 +2361,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "abd_hisse",
   "sembol": "ORCL",
   "ad": "Oracle",
@@ -2361,7 +2371,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "ulke_etf",
   "sembol": "QAT",
   "ad": "QAT",
@@ -2371,7 +2381,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "tema_etf",
   "sembol": "WCBR",
   "ad": "WCBR",
@@ -2381,7 +2391,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "tema_etf",
   "sembol": "BUG",
   "ad": "BUG",
@@ -2391,7 +2401,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "tema_etf",
   "sembol": "XOP",
   "ad": "XOP",
@@ -2401,7 +2411,7 @@
  },
  {
   "gun_tarihi": "2026-11-03",
-  "zaman": "03.11.2026 11:11",
+  "zaman": "03.11.2026 11:41",
   "grup": "tema_etf",
   "sembol": "OIH",
   "ad": "OIH",
