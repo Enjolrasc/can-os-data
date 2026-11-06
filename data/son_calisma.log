@@ -1,6 +1,27 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-06.11.2026 04:41 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
+06.11.2026 12:11 · 193 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 166, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 21
+  ! NG=F: nasdaq: boş veri | nasdaq: The read operation timed out
+  ! HG=F: nasdaq: boş veri | nasdaq: The read operation timed out
+  ! PG: nasdaq: The read operation timed out | stooq: boş veri
+  ! UBER: nasdaq: The read operation timed out | stooq: boş veri
+  ! CRH: nasdaq: The read operation timed out | stooq: boş veri
+  ! ORCL: nasdaq: The read operation timed out | stooq: boş veri
+  ! EPU: nasdaq: The read operation timed out | stooq: boş veri
+  ! EZA: nasdaq: The read operation timed out | stooq: boş veri
+  ! VNAM: nasdaq: The read operation timed out | stooq: boş veri
+  ! EIS: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWH: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWN: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWQ: nasdaq: The read operation timed out | stooq: boş veri
+  ! VOO: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWM: nasdaq: <urlopen error _ssl.c:993: The handshake operation timed out> | stooq: boş veri
+  ! EPHE: nasdaq: The read operation timed out | stooq: boş veri
+  ! EIDO: nasdaq: The read operation timed out | stooq: boş veri
+  ! VGT: nasdaq: Unexpected UTF-8 BOM (decode using utf-8-sig): line 1 column 1 (char 0) | stooq: boş veri
+  ! ITA: nasdaq: The read operation timed out | stooq: boş veri
+  ! VAW: nasdaq: The read operation timed out | stooq: boş veri
+  ! VCR: nasdaq: The read operation timed out | stooq: boş veri
 screener: 6930 hisse
-tazelik: {'beklenen': '2026-11-05', 'liste_tarihi': '2026-11-04', 'fiyat_farki_medyan_yuzde': 7.409, 'eski': True}
+tazelik: {'beklenen': '2026-11-05', 'liste_tarihi': '2026-11-05', 'fiyat_farki_medyan_yuzde': 9.787, 'eski': True}
 {"sp500": [502, 375, 127, "$733 mr", null], "ndx": [101, 66, 35, "$425 mr", null], "r2k": [2000, 1482, 493, "$68 mr", null]}
