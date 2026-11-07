@@ -3421,7 +3421,7 @@
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
@@ -3431,17 +3431,17 @@
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
-  "degisim": 16.13,
-  "fiyat": 5.075,
+  "degisim": 16.25,
+  "fiyat": 5.08,
   "esik": 6.0
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "abd_hisse",
   "sembol": "APP",
   "ad": "AppLovin",
@@ -3451,37 +3451,37 @@
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "ulke_etf",
   "sembol": "EWY",
   "ad": "EWY",
-  "degisim": 4.03,
-  "fiyat": 136.96,
+  "degisim": 4.07,
+  "fiyat": 137.01,
   "esik": 4.0
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "ulke_etf",
   "sembol": "EIS",
   "ad": "EIS",
-  "degisim": 4.41,
-  "fiyat": 111.575,
+  "degisim": 4.32,
+  "fiyat": 111.48,
   "esik": 4.0
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "tema_etf",
   "sembol": "PSI",
   "ad": "PSI",
-  "degisim": 6.25,
-  "fiyat": 102.91,
+  "degisim": 6.41,
+  "fiyat": 103.07,
   "esik": 5.0
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "tema_etf",
   "sembol": "ARKX",
   "ad": "ARKX",
@@ -3491,12 +3491,12 @@
  },
  {
   "gun_tarihi": "2026-11-07",
-  "zaman": "07.11.2026 04:02",
+  "zaman": "07.11.2026 09:54",
   "grup": "tema_etf",
   "sembol": "PBW",
   "ad": "PBW",
-  "degisim": 6.22,
-  "fiyat": 26.28,
+  "degisim": 6.06,
+  "fiyat": 26.24,
   "esik": 5.0
  }
 ]
