@@ -1,6 +1,39 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-09.11.2026 10:45 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
-screener: 7040 hisse
-tazelik: {'beklenen': '2026-11-06', 'liste_tarihi': '2026-11-06', 'fiyat_farki_medyan_yuzde': 1.172, 'eski': True}
-{"sp500": [503, 84, 418, "$667 mr", null], "ndx": [101, 15, 86, "$447 mr", null], "r2k": [2000, 226, 1765, "$57 mr", null]}
+09.11.2026 19:55 · 182 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 155, 'vekil:VIXY': 1} · başarısız: 32
+  ! ^IXIC: The read operation timed out | nasdaq: The read operation timed out
+  ! ^RUT: nasdaq: boş veri | nasdaq: The read operation timed out
+  ! ^DJI: The read operation timed out | nasdaq: The read operation timed out
+  ! SCCO: nasdaq: The read operation timed out | stooq: boş veri
+  ! TMUS: nasdaq: The read operation timed out | stooq: boş veri
+  ! AVGO: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWP: nasdaq: The read operation timed out | stooq: boş veri
+  ! GREK: nasdaq: The read operation timed out | stooq: boş veri
+  ! EZA: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWO: nasdaq: The read operation timed out | stooq: boş veri
+  ! VNAM: nasdaq: The read operation timed out | stooq: boş veri
+  ! ECH: nasdaq: The read operation timed out | stooq: boş veri
+  ! COLO: nasdaq: The read operation timed out | stooq: boş veri
+  ! EIS: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWW: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWG: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWU: nasdaq: The read operation timed out | stooq: boş veri
+  ! EIRL: nasdaq: The read operation timed out | stooq: boş veri
+  ! EWJ: nasdaq: The read operation timed out | stooq: boş veri
+  ! GDX: nasdaq: The read operation timed out | stooq: boş veri
+  ! GOAU: nasdaq: The read operation timed out | stooq: boş veri
+  ! SIVR: nasdaq: The read operation timed out | stooq: boş veri
+  ! SIL: nasdaq: The read operation timed out | stooq: boş veri
+  ! GLTR: nasdaq: The read operation timed out | stooq: boş veri
+  ! THNQ: nasdaq: The read operation timed out | stooq: boş veri
+  ! WTAI: nasdaq: The read operation timed out | stooq: boş veri
+  ! FTXL: nasdaq: The read operation timed out | stooq: boş veri
+  ! PSI: nasdaq: The read operation timed out | stooq: boş veri
+  ! SMH: nasdaq: The read operation timed out | stooq: boş veri
+  ! XLK: nasdaq: The read operation timed out | stooq: boş veri
+  ! IYW: nasdaq: The read operation timed out | stooq: boş veri
+  ! FTEC: nasdaq: The read operation timed out | stooq: boş veri
+screener: 7105 hisse
+Nasdaq-100 listesi alınamadı: 'NoneType' object has no attribute 'get'
+tazelik: {'beklenen': '2026-11-06', 'liste_tarihi': None, 'fiyat_farki_medyan_yuzde': 0.976, 'eski': True}
+{"sp500": [503, 185, 318, "$549 mr", null], "ndx": [0, 0, 0, "$0,0 mr", null], "r2k": [2000, 1096, 885, "$54 mr", null]}
