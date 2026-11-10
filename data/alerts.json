@@ -2531,7 +2531,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
@@ -2541,7 +2541,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
@@ -2551,7 +2551,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
@@ -2561,7 +2561,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
@@ -2571,7 +2571,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "emtia",
   "sembol": "KC=F",
   "ad": "Kahve",
@@ -2581,7 +2581,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^GSPC",
   "ad": "S&P 500",
@@ -2591,7 +2591,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -2601,7 +2601,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^NDX",
   "ad": "Nasdaq-100",
@@ -2611,7 +2611,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^RUT",
   "ad": "Russell 2000",
@@ -2621,7 +2621,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^DJI",
   "ad": "Dow Jones",
@@ -2631,7 +2631,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -2641,7 +2641,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
@@ -2651,7 +2651,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "abd_hisse",
   "sembol": "MU",
   "ad": "Micron",
@@ -2661,7 +2661,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "abd_hisse",
   "sembol": "AVGO",
   "ad": "Broadcom",
@@ -2671,7 +2671,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "ulke_etf",
   "sembol": "EWP",
   "ad": "EWP",
@@ -2681,7 +2681,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "ulke_etf",
   "sembol": "EWI",
   "ad": "EWI",
@@ -2691,7 +2691,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "ulke_etf",
   "sembol": "EWT",
   "ad": "EWT",
@@ -2701,7 +2701,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "SIL",
   "ad": "SIL",
@@ -2711,7 +2711,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "SILJ",
   "ad": "SILJ",
@@ -2721,7 +2721,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "IGPT",
   "ad": "IGPT",
@@ -2731,7 +2731,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "ARTY",
   "ad": "ARTY",
@@ -2741,7 +2741,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "THNQ",
   "ad": "THNQ",
@@ -2751,7 +2751,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "WTAI",
   "ad": "WTAI",
@@ -2761,7 +2761,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "CHAT",
   "ad": "CHAT",
@@ -2771,7 +2771,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "FTXL",
   "ad": "FTXL",
@@ -2781,7 +2781,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "SOXX",
   "ad": "SOXX",
@@ -2791,7 +2791,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "PSI",
   "ad": "PSI",
@@ -2801,7 +2801,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "SOXQ",
   "ad": "SOXQ",
@@ -2811,7 +2811,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "SMH",
   "ad": "SMH",
@@ -2821,7 +2821,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
@@ -2831,7 +2831,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "URA",
   "ad": "URA",
@@ -2841,7 +2841,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "NLR",
   "ad": "NLR",
@@ -2851,7 +2851,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "URNJ",
   "ad": "URNJ",
@@ -2861,7 +2861,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "ROKT",
   "ad": "ROKT",
@@ -2871,7 +2871,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "UFO",
   "ad": "UFO",
@@ -2881,7 +2881,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "ARKX",
   "ad": "ARKX",
@@ -2891,7 +2891,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "QCLN",
   "ad": "QCLN",
@@ -2901,7 +2901,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "COPX",
   "ad": "COPX",
@@ -2911,7 +2911,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "XME",
   "ad": "XME",
@@ -2921,7 +2921,7 @@
  },
  {
   "gun_tarihi": "2026-11-10",
-  "zaman": "10.11.2026 06:18",
+  "zaman": "10.11.2026 06:42",
   "grup": "tema_etf",
   "sembol": "JETS",
   "ad": "JETS",
