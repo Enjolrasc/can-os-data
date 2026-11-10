@@ -1,485 +1,5 @@
 [
  {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "emtia",
-  "sembol": "GC=F",
-  "ad": "Altın (ons $)",
-  "degisim": -3.47,
-  "fiyat": 355.78,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "emtia",
-  "sembol": "PL=F",
-  "ad": "Platin (ons $)",
-  "degisim": -3.49,
-  "fiyat": 13.01,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "endeks",
-  "sembol": "^IXIC",
-  "ad": "Nasdaq Composite",
-  "degisim": -2.86,
-  "fiyat": 25437.0,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "endeks",
-  "sembol": "^NDX",
-  "ad": "Nasdaq-100",
-  "degisim": -3.46,
-  "fiyat": 28384.85,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "abd_hisse",
-  "sembol": "SCCO",
-  "ad": "Southern Copper",
-  "degisim": -7.42,
-  "fiyat": 177.53,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "abd_hisse",
-  "sembol": "TMUS",
-  "ad": "T-Mobile US",
-  "degisim": 6.21,
-  "fiyat": 156.44,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "abd_hisse",
-  "sembol": "APP",
-  "ad": "AppLovin",
-  "degisim": -10.36,
-  "fiyat": 228.5,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "abd_hisse",
-  "sembol": "ORCL",
-  "ad": "Oracle",
-  "degisim": -6.37,
-  "fiyat": 130.67,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "ulke_etf",
-  "sembol": "EWY",
-  "ad": "EWY",
-  "degisim": -5.52,
-  "fiyat": 152.89,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "ulke_etf",
-  "sembol": "EPU",
-  "ad": "EPU",
-  "degisim": -4.24,
-  "fiyat": 80.18,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "ulke_etf",
-  "sembol": "EWT",
-  "ad": "EWT",
-  "degisim": -4.6,
-  "fiyat": 101.11,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SGDM",
-  "ad": "SGDM",
-  "degisim": -5.18,
-  "fiyat": 64.86,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "RING",
-  "ad": "RING",
-  "degisim": -5.65,
-  "fiyat": 66.85,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "GDX",
-  "ad": "GDX",
-  "degisim": -5.21,
-  "fiyat": 77.09,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "GDXJ",
-  "ad": "GDXJ",
-  "degisim": -5.91,
-  "fiyat": 94.97,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SIVR",
-  "ad": "SIVR",
-  "degisim": -5.71,
-  "fiyat": 46.88,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SLV",
-  "ad": "SLV",
-  "degisim": -5.67,
-  "fiyat": 44.6,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SIL",
-  "ad": "SIL",
-  "degisim": -5.58,
-  "fiyat": 71.25,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SILJ",
-  "ad": "SILJ",
-  "degisim": -5.78,
-  "fiyat": 22.49,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "IGPT",
-  "ad": "IGPT",
-  "degisim": -7.52,
-  "fiyat": 83.71,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "ARTY",
-  "ad": "ARTY",
-  "degisim": -5.73,
-  "fiyat": 68.4,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "THNQ",
-  "ad": "THNQ",
-  "degisim": -5.47,
-  "fiyat": 86.1,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "WTAI",
-  "ad": "WTAI",
-  "degisim": -6.66,
-  "fiyat": 36.28,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "CHAT",
-  "ad": "CHAT",
-  "degisim": -7.13,
-  "fiyat": 75.33,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "FTXL",
-  "ad": "FTXL",
-  "degisim": -7.81,
-  "fiyat": 211.33,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SOXX",
-  "ad": "SOXX",
-  "degisim": -8.24,
-  "fiyat": 471.51,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "PSI",
-  "ad": "PSI",
-  "degisim": -8.17,
-  "fiyat": 118.63,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SOXQ",
-  "ad": "SOXQ",
-  "degisim": -7.18,
-  "fiyat": 84.12,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "SMH",
-  "ad": "SMH",
-  "degisim": -6.98,
-  "fiyat": 522.49,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "URNM",
-  "ad": "URNM",
-  "degisim": -5.4,
-  "fiyat": 42.36,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "URA",
-  "ad": "URA",
-  "degisim": -5.57,
-  "fiyat": 33.73,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "URNJ",
-  "ad": "URNJ",
-  "degisim": -5.42,
-  "fiyat": 17.27,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "COPX",
-  "ad": "COPX",
-  "degisim": -5.19,
-  "fiyat": 71.96,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "REMX",
-  "ad": "REMX",
-  "degisim": -5.12,
-  "fiyat": 49.99,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "BLOK",
-  "ad": "BLOK",
-  "degisim": -6.29,
-  "fiyat": 51.25,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "IBIT",
-  "ad": "IBIT",
-  "degisim": -5.14,
-  "fiyat": 43.36,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "BITQ",
-  "ad": "BITQ",
-  "degisim": -7.5,
-  "fiyat": 19.6,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 10:29",
-  "grup": "tema_etf",
-  "sembol": "FBTC",
-  "ad": "FBTC",
-  "degisim": -5.01,
-  "fiyat": 66.71,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": 3.14,
-  "fiyat": 46.0001,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "emtia",
-  "sembol": "BZ=F",
-  "ad": "Brent petrol",
-  "degisim": -6.61,
-  "fiyat": 66.67,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "emtia",
-  "sembol": "CL=F",
-  "ad": "WTI petrol",
-  "degisim": -6.14,
-  "fiyat": 158.46,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "emtia",
-  "sembol": "HO=F",
-  "ad": "Dizel (ULSD)",
-  "degisim": -4.64,
-  "fiyat": 4.459,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": -8.58,
-  "fiyat": 95.03,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -4.45,
-  "fiyat": 17.59,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "abd_hisse",
-  "sembol": "CRH",
-  "ad": "CRH",
-  "degisim": 6.23,
-  "fiyat": 96.465,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "ulke_etf",
-  "sembol": "QAT",
-  "ad": "QAT",
-  "degisim": 4.42,
-  "fiyat": 16.88,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "tema_etf",
-  "sembol": "TAN",
-  "ad": "TAN",
-  "degisim": 5.6,
-  "fiyat": 42.45,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-02",
-  "zaman": "02.11.2026 19:37",
-  "grup": "tema_etf",
-  "sembol": "JETS",
-  "ad": "JETS",
-  "degisim": 5.61,
-  "fiyat": 28.44,
-  "esik": 5.0
- },
- {
   "gun_tarihi": "2026-11-03",
   "zaman": "03.11.2026 11:41",
   "grup": "emtia",
@@ -2987,6 +2507,426 @@
   "ad": "XME",
   "degisim": 5.08,
   "fiyat": 98.2,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": -5.3,
+  "fiyat": 58.92,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": -3.9,
+  "fiyat": 142.625,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": 7.81,
+  "fiyat": 10.08,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -3.61,
+  "fiyat": 82.499,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "emtia",
+  "sembol": "KC=F",
+  "ad": "Kahve",
+  "degisim": -4.75,
+  "fiyat": 266.7,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^GSPC",
+  "ad": "S&P 500",
+  "degisim": 2.36,
+  "fiyat": 752.64,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^IXIC",
+  "ad": "Nasdaq Composite",
+  "degisim": 2.74,
+  "fiyat": 25253.14,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^NDX",
+  "ad": "Nasdaq-100",
+  "degisim": 3.4,
+  "fiyat": 27907.63,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^RUT",
+  "ad": "Russell 2000",
+  "degisim": 3.22,
+  "fiyat": 282.47,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^DJI",
+  "ad": "Dow Jones",
+  "degisim": 2.17,
+  "fiyat": 523.36,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": -13.41,
+  "fiyat": 18.21,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "abd_hisse",
+  "sembol": "SMR",
+  "ad": "NuScale Power",
+  "degisim": 6.99,
+  "fiyat": 5.435,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "abd_hisse",
+  "sembol": "MU",
+  "ad": "Micron",
+  "degisim": 6.25,
+  "fiyat": 733.15,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "abd_hisse",
+  "sembol": "AVGO",
+  "ad": "Broadcom",
+  "degisim": 8.78,
+  "fiyat": 319.48,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "ulke_etf",
+  "sembol": "EWP",
+  "ad": "EWP",
+  "degisim": 4.12,
+  "fiyat": 60.245,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "ulke_etf",
+  "sembol": "EWI",
+  "ad": "EWI",
+  "degisim": 4.78,
+  "fiyat": 59.23,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "ulke_etf",
+  "sembol": "EWT",
+  "ad": "EWT",
+  "degisim": 7.17,
+  "fiyat": 95.64,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "GOAU",
+  "ad": "GOAU",
+  "degisim": 5.25,
+  "fiyat": 45.19,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "SIL",
+  "ad": "SIL",
+  "degisim": 5.18,
+  "fiyat": 83.47,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "SILJ",
+  "ad": "SILJ",
+  "degisim": 5.69,
+  "fiyat": 26.2,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "IGPT",
+  "ad": "IGPT",
+  "degisim": 5.13,
+  "fiyat": 79.14,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "ARTY",
+  "ad": "ARTY",
+  "degisim": 5.95,
+  "fiyat": 64.63,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "THNQ",
+  "ad": "THNQ",
+  "degisim": 6.7,
+  "fiyat": 83.42,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "WTAI",
+  "ad": "WTAI",
+  "degisim": 6.26,
+  "fiyat": 33.505,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "CHAT",
+  "ad": "CHAT",
+  "degisim": 5.71,
+  "fiyat": 71.42,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "FTXL",
+  "ad": "FTXL",
+  "degisim": 7.11,
+  "fiyat": 198.18,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "SOXX",
+  "ad": "SOXX",
+  "degisim": 7.49,
+  "fiyat": 146.76,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "PSI",
+  "ad": "PSI",
+  "degisim": 9.44,
+  "fiyat": 112.8,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "SOXQ",
+  "ad": "SOXQ",
+  "degisim": 7.03,
+  "fiyat": 79.01,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "SMH",
+  "ad": "SMH",
+  "degisim": 5.05,
+  "fiyat": 487.41,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "NUKZ",
+  "ad": "NUKZ",
+  "degisim": 5.16,
+  "fiyat": 57.11,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "URNM",
+  "ad": "URNM",
+  "degisim": 6.35,
+  "fiyat": 43.9,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "URA",
+  "ad": "URA",
+  "degisim": 6.18,
+  "fiyat": 34.34,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "NLR",
+  "ad": "NLR",
+  "degisim": 6.82,
+  "fiyat": 94.47,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "URNJ",
+  "ad": "URNJ",
+  "degisim": 7.81,
+  "fiyat": 18.5,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "ROKT",
+  "ad": "ROKT",
+  "degisim": 5.94,
+  "fiyat": 102.28,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "UFO",
+  "ad": "UFO",
+  "degisim": 6.56,
+  "fiyat": 41.57,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "ARKX",
+  "ad": "ARKX",
+  "degisim": 5.63,
+  "fiyat": 30.02,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "QCLN",
+  "ad": "QCLN",
+  "degisim": 5.32,
+  "fiyat": 45.32,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "COPX",
+  "ad": "COPX",
+  "degisim": 5.63,
+  "fiyat": 75.26,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "XME",
+  "ad": "XME",
+  "degisim": 5.5,
+  "fiyat": 98.59,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-10",
+  "zaman": "10.11.2026 03:28",
+  "grup": "tema_etf",
+  "sembol": "JETS",
+  "ad": "JETS",
+  "degisim": 5.15,
+  "fiyat": 30.2,
   "esik": 5.0
  }
 ]
