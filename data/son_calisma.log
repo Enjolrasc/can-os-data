@@ -1,15 +1,14 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-UYARI: yalnızca 13/214 sembol alınabildi; latest.json güncellenmedi.
+UYARI: yalnızca 14/214 sembol alınabildi; latest.json güncellenmedi.
   ! GC=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! SI=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! PL=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! PA=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! BZ=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! CL=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! NG=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
+  ! PL=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
+  ! PA=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
+  ! BZ=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
+  ! CL=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
+  ! NG=F: yahoo: HTTP Error 429: Too Many Requests | HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
   ! HG=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! ZW=F: HTTP Error 403: Forbidden
+  ! ZW=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
   ! ZC=F: HTTP Error 403: Forbidden
   ! ZS=F: HTTP Error 403: Forbidden
   ! SB=F: HTTP Error 403: Forbidden
@@ -41,6 +40,7 @@ UYARI: yalnızca 13/214 sembol alınabildi; latest.json güncellenmedi.
   ! EWO: kaynak yok
   ! VNAM: kaynak yok
   ! ECH: kaynak yok
+  ! EPOL: kaynak yok
 Traceback (most recent call last):
   File "C:\Users\Can\can-os-collector\repo\us_market.py", line 309, in <module>
     main()
