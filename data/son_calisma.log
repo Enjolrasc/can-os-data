@@ -42,32 +42,32 @@ UYARI: yalnızca 13/214 sembol alınabildi; latest.json güncellenmedi.
   ! VNAM: stooq: boş veri
   ! ECH: stooq: boş veri
 Traceback (most recent call last):
-  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 309, in <module>
+  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 309, in <module>
     main()
-  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 215, in main
+  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 215, in main
     sc = screener()
          ^^^^^^^^^^
-  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 77, in screener
+  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 77, in screener
     raw = json.loads(get("https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&download=true", timeout=40))
                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 44, in get
+  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 44, in get
     with urlopen(Request(url, headers=HDR), timeout=timeout) as r:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
     return opener.open(url, data, timeout)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 521, in open
     response = meth(req, response)
                ^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 630, in http_response
     response = self.parent.error(
                ^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 559, in error
     return self._call_chain(*args)
            ^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
     result = func(*args)
              ^^^^^^^^^^^
-  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
+  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 403: Forbidden
