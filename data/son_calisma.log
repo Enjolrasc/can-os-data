@@ -19,55 +19,55 @@ UYARI: yalnızca 13/214 sembol alınabildi; latest.json güncellenmedi.
   ! ^RUT: HTTP Error 403: Forbidden
   ! ^DJI: HTTP Error 403: Forbidden
   ! ^VIX: HTTP Error 403: Forbidden
-  ! SOFI: stooq: boş veri
-  ! SMR: stooq: boş veri
-  ! PG: stooq: boş veri
-  ! SCCO: stooq: boş veri
-  ! MU: stooq: boş veri
-  ! TMUS: stooq: boş veri
-  ! BKNG: stooq: boş veri
-  ! UBER: stooq: boş veri
-  ! APP: stooq: boş veri
-  ! SGHC: stooq: boş veri
-  ! NVDA: stooq: boş veri
-  ! AVGO: stooq: boş veri
-  ! CRH: stooq: boş veri
-  ! ORCL: stooq: boş veri
-  ! EWY: stooq: boş veri
-  ! EPU: stooq: boş veri
-  ! EWP: stooq: boş veri
-  ! GREK: stooq: boş veri
-  ! EZA: stooq: boş veri
-  ! EWO: stooq: boş veri
-  ! VNAM: stooq: boş veri
-  ! ECH: stooq: boş veri
+  ! SOFI: stooq: <urlopen error timed out>
+  ! SMR: stooq: <urlopen error timed out>
+  ! PG: stooq: <urlopen error timed out>
+  ! SCCO: stooq: <urlopen error timed out>
+  ! MU: stooq: <urlopen error timed out>
+  ! TMUS: stooq: <urlopen error timed out>
+  ! BKNG: stooq: <urlopen error timed out>
+  ! UBER: kaynak yok
+  ! APP: kaynak yok
+  ! SGHC: kaynak yok
+  ! NVDA: kaynak yok
+  ! AVGO: kaynak yok
+  ! CRH: kaynak yok
+  ! ORCL: kaynak yok
+  ! EWY: kaynak yok
+  ! EPU: kaynak yok
+  ! EWP: kaynak yok
+  ! GREK: kaynak yok
+  ! EZA: kaynak yok
+  ! EWO: kaynak yok
+  ! VNAM: kaynak yok
+  ! ECH: kaynak yok
 Traceback (most recent call last):
-  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 309, in <module>
+  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 309, in <module>
     main()
-  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 215, in main
+  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 215, in main
     sc = screener()
          ^^^^^^^^^^
-  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 77, in screener
+  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 77, in screener
     raw = json.loads(get("https://api.nasdaq.com/api/screener/stocks?tableonly=true&limit=25&offset=0&download=true", timeout=40))
                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/can-os-data/can-os-data/us_market.py", line 44, in get
+  File "C:\Users\Can\can-os-collector\repo\us_market.py", line 44, in get
     with urlopen(Request(url, headers=HDR), timeout=timeout) as r:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 215, in urlopen
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 215, in urlopen
     return opener.open(url, data, timeout)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 521, in open
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 521, in open
     response = meth(req, response)
                ^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 630, in http_response
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 630, in http_response
     response = self.parent.error(
                ^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 559, in error
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 559, in error
     return self._call_chain(*args)
            ^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 492, in _call_chain
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 492, in _call_chain
     result = func(*args)
              ^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/urllib/request.py", line 639, in http_error_default
+  File "C:\Users\Can\AppData\Local\Programs\Python\Python312\Lib\urllib\request.py", line 639, in http_error_default
     raise HTTPError(req.full_url, code, msg, hdrs, fp)
 urllib.error.HTTPError: HTTP Error 403: Forbidden
