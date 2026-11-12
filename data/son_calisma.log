@@ -9,7 +9,7 @@ UYARI: yalnızca 13/214 sembol alınabildi; latest.json güncellenmedi.
   ! CL=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
   ! NG=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
   ! HG=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
-  ! ZW=F: HTTP Error 403: Forbidden
+  ! ZW=F: HTTP Error 403: Forbidden | nasdaq: HTTP Error 403: Forbidden
   ! ZC=F: HTTP Error 403: Forbidden
   ! ZS=F: HTTP Error 403: Forbidden
   ! SB=F: HTTP Error 403: Forbidden
