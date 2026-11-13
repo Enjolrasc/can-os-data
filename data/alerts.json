@@ -1751,106 +1751,6 @@
  },
  {
   "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 00:56",
-  "grup": "emtia",
-  "sembol": "PA=F",
-  "ad": "Paladyum (ons $)",
-  "degisim": -3.71,
-  "fiyat": 18.025,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 00:56",
-  "grup": "tema_etf",
-  "sembol": "URNJ",
-  "ad": "URNJ",
-  "degisim": -6.75,
-  "fiyat": 16.31,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -3.29,
-  "fiyat": 45.115,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "BZ=F",
-  "ad": "Brent petrol",
-  "degisim": 3.89,
-  "fiyat": 61.035,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "CL=F",
-  "ad": "WTI petrol",
-  "degisim": 3.24,
-  "fiyat": 146.06,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 6.47,
-  "fiyat": 92.259,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "KC=F",
-  "ad": "Kahve",
-  "degisim": 3.74,
-  "fiyat": 274.55,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "emtia",
-  "sembol": "CC=F",
-  "ad": "Kakao",
-  "degisim": 3.13,
-  "fiyat": 5204,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 3.48,
-  "fiyat": 17.52,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
-  "grup": "abd_hisse",
-  "sembol": "SMR",
-  "ad": "NuScale Power",
-  "degisim": -8.03,
-  "fiyat": 4.81,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-13",
   "zaman": "13.11.2026 04:43",
   "grup": "tema_etf",
   "sembol": "IGPT",
@@ -1901,12 +1801,112 @@
  },
  {
   "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 04:43",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -3.28,
+  "fiyat": 45.12,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": -3.74,
+  "fiyat": 18.02,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "BZ=F",
+  "ad": "Brent petrol",
+  "degisim": 3.85,
+  "fiyat": 61.01,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": 3.25,
+  "fiyat": 146.07,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 6.47,
+  "fiyat": 92.259,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "KC=F",
+  "ad": "Kahve",
+  "degisim": 3.74,
+  "fiyat": 274.55,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "emtia",
+  "sembol": "CC=F",
+  "ad": "Kakao",
+  "degisim": 3.13,
+  "fiyat": 5204,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 3.43,
+  "fiyat": 17.51,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "abd_hisse",
+  "sembol": "SMR",
+  "ad": "NuScale Power",
+  "degisim": -7.84,
+  "fiyat": 4.82,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
   "grup": "tema_etf",
   "sembol": "URNM",
   "ad": "URNM",
-  "degisim": -5.12,
-  "fiyat": 40.23,
+  "degisim": -5.02,
+  "fiyat": 40.27,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 05:01",
+  "grup": "tema_etf",
+  "sembol": "URNJ",
+  "ad": "URNJ",
+  "degisim": -6.75,
+  "fiyat": 16.31,
   "esik": 5.0
  }
 ]
