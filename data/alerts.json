@@ -1872,16 +1872,6 @@
  {
   "gun_tarihi": "2026-11-13",
   "zaman": "13.11.2026 13:43",
-  "grup": "emtia",
-  "sembol": "CT=F",
-  "ad": "Pamuk",
-  "degisim": 5.16,
-  "fiyat": 82.73,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-13",
-  "zaman": "13.11.2026 13:43",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -1918,5 +1908,15 @@
   "degisim": -6.75,
   "fiyat": 16.31,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-13",
+  "zaman": "13.11.2026 17:57",
+  "grup": "emtia",
+  "sembol": "CT=F",
+  "ad": "Pamuk",
+  "degisim": 5.45,
+  "fiyat": 82.96,
+  "esik": 3.0
  }
 ]
