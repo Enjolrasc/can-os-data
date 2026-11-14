@@ -1062,6 +1062,16 @@
  {
   "gun_tarihi": "2026-11-14",
   "zaman": "14.11.2026 04:34",
+  "grup": "tema_etf",
+  "sembol": "URNJ",
+  "ad": "URNJ",
+  "degisim": -6.75,
+  "fiyat": 16.31,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-14",
+  "zaman": "14.11.2026 12:56",
   "grup": "emtia",
   "sembol": "CT=F",
   "ad": "Pamuk",
@@ -1071,22 +1081,12 @@
  },
  {
   "gun_tarihi": "2026-11-14",
-  "zaman": "14.11.2026 04:34",
+  "zaman": "14.11.2026 12:56",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
-  "degisim": 2.34,
-  "fiyat": 17.92,
+  "degisim": 2.46,
+  "fiyat": 17.94,
   "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-14",
-  "zaman": "14.11.2026 04:34",
-  "grup": "tema_etf",
-  "sembol": "URNJ",
-  "ad": "URNJ",
-  "degisim": -6.75,
-  "fiyat": 16.31,
-  "esik": 5.0
  }
 ]
