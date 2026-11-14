@@ -1041,7 +1041,17 @@
  },
  {
   "gun_tarihi": "2026-11-14",
-  "zaman": "14.11.2026 00:06",
+  "zaman": "14.11.2026 04:20",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": -3.74,
+  "fiyat": 18.02,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-14",
+  "zaman": "14.11.2026 04:20",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
@@ -1051,7 +1061,7 @@
  },
  {
   "gun_tarihi": "2026-11-14",
-  "zaman": "14.11.2026 00:06",
+  "zaman": "14.11.2026 04:20",
   "grup": "emtia",
   "sembol": "CT=F",
   "ad": "Pamuk",
@@ -1061,12 +1071,22 @@
  },
  {
   "gun_tarihi": "2026-11-14",
-  "zaman": "14.11.2026 00:06",
+  "zaman": "14.11.2026 04:20",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
   "degisim": 2.34,
   "fiyat": 17.92,
   "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-14",
+  "zaman": "14.11.2026 04:20",
+  "grup": "tema_etf",
+  "sembol": "URNJ",
+  "ad": "URNJ",
+  "degisim": -6.75,
+  "fiyat": 16.31,
+  "esik": 5.0
  }
 ]
