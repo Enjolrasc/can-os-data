@@ -961,12 +961,92 @@
  },
  {
   "gun_tarihi": "2026-11-16",
-  "zaman": "16.11.2026 10:45",
+  "zaman": "16.11.2026 19:31",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -3.99,
+  "fiyat": 42.37,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -3.04,
+  "fiyat": 13.0901,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -3.2,
+  "fiyat": 9.825,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -6.76,
+  "fiyat": 84.8,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
-  "degisim": 2.46,
-  "fiyat": 17.94,
+  "degisim": 3.23,
+  "fiyat": 18.52,
   "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "ulke_etf",
+  "sembol": "EWT",
+  "ad": "EWT",
+  "degisim": -5.6,
+  "fiyat": 91.93,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "tema_etf",
+  "sembol": "IBIT",
+  "ad": "IBIT",
+  "degisim": -6.12,
+  "fiyat": 36.555,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "tema_etf",
+  "sembol": "FBTC",
+  "ad": "FBTC",
+  "degisim": -6.16,
+  "fiyat": 56.17,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 19:31",
+  "grup": "tema_etf",
+  "sembol": "ETHA",
+  "ad": "ETHA",
+  "degisim": -6.29,
+  "fiyat": 41.2505,
+  "esik": 5.0
  }
 ]
