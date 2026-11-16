@@ -1,85 +1,5 @@
 [
  {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": -5.61,
-  "fiyat": 85.588,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "abd_hisse",
-  "sembol": "SMR",
-  "ad": "NuScale Power",
-  "degisim": 16.25,
-  "fiyat": 5.08,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "abd_hisse",
-  "sembol": "APP",
-  "ad": "AppLovin",
-  "degisim": 9.86,
-  "fiyat": 391.22,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "ulke_etf",
-  "sembol": "EWY",
-  "ad": "EWY",
-  "degisim": 4.07,
-  "fiyat": 137.01,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "ulke_etf",
-  "sembol": "EIS",
-  "ad": "EIS",
-  "degisim": 4.32,
-  "fiyat": 111.48,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "tema_etf",
-  "sembol": "PSI",
-  "ad": "PSI",
-  "degisim": 6.41,
-  "fiyat": 103.07,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "tema_etf",
-  "sembol": "ARKX",
-  "ad": "ARKX",
-  "degisim": 5.08,
-  "fiyat": 28.42,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-08",
-  "zaman": "08.11.2026 10:02",
-  "grup": "tema_etf",
-  "sembol": "PBW",
-  "ad": "PBW",
-  "degisim": 6.06,
-  "fiyat": 26.24,
-  "esik": 5.0
- },
- {
   "gun_tarihi": "2026-11-09",
   "zaman": "09.11.2026 10:45",
   "grup": "abd_hisse",
@@ -1022,6 +942,26 @@
  {
   "gun_tarihi": "2026-11-15",
   "zaman": "15.11.2026 10:40",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 2.46,
+  "fiyat": 17.94,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 03:51",
+  "grup": "emtia",
+  "sembol": "CT=F",
+  "ad": "Pamuk",
+  "degisim": 5.01,
+  "fiyat": 82.61,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-16",
+  "zaman": "16.11.2026 03:51",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
