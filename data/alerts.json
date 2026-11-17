@@ -912,16 +912,6 @@
  {
   "gun_tarihi": "2026-11-17",
   "zaman": "17.11.2026 17:12",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 9.03,
-  "fiyat": 19.56,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-17",
-  "zaman": "17.11.2026 17:12",
   "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
@@ -1108,5 +1098,15 @@
   "degisim": -6.57,
   "fiyat": 41.13,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-17",
+  "zaman": "17.11.2026 19:31",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 6.65,
+  "fiyat": 20.86,
+  "esik": 2.0
  }
 ]
