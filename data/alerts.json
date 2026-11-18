@@ -691,22 +691,22 @@
  },
  {
   "gun_tarihi": "2026-11-18",
-  "zaman": "18.11.2026 02:40",
+  "zaman": "18.11.2026 05:47",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
-  "degisim": 7.77,
-  "fiyat": 21.08,
+  "degisim": 7.41,
+  "fiyat": 21.01,
   "esik": 2.0
  },
  {
   "gun_tarihi": "2026-11-18",
-  "zaman": "18.11.2026 02:40",
+  "zaman": "18.11.2026 05:47",
   "grup": "tema_etf",
   "sembol": "TAN",
   "ad": "TAN",
-  "degisim": -5.15,
-  "fiyat": 38.13,
+  "degisim": -5.17,
+  "fiyat": 38.12,
   "esik": 5.0
  }
 ]
