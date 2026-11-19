@@ -1,7 +1,6 @@
   Yahoo oturumu açılamadı: HTTP Error 429: Too Many Requests
 Yahoo oturumu: yok (yedek kaynaklar kullanılacak)
-19.11.2026 01:51 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
+19.11.2026 05:23 · 214 sembol alındı · kaynaklar: {'ecb': 6, 'ecb-hesap': 1, 'vekil:GLD': 1, 'vekil:SLV': 1, 'vekil:PPLT': 1, 'vekil:PALL': 1, 'vekil:BNO': 1, 'vekil:USO': 1, 'tradingview': 6, 'vekil:UNG': 1, 'vekil:CPER': 1, 'vekil:WEAT': 1, 'vekil:CORN': 1, 'vekil:SOYB': 1, 'vekil:CANE': 1, 'vekil:SPY': 1, 'nasdaq': 185, 'vekil:IWM': 1, 'vekil:DIA': 1, 'vekil:VIXY': 1} · başarısız: 0
 screener: 7269 hisse
-tazelik: {'beklenen': '2026-11-18', 'liste_tarihi': '2026-11-18', 'fiyat_farki_medyan_yuzde': 2.054, 'eski': True}
-analist hedefleri: 520/528 (305 sn)
+tazelik: {'beklenen': '2026-11-18', 'liste_tarihi': '2026-11-17', 'fiyat_farki_medyan_yuzde': 2.054, 'eski': True}
 {"sp500": [503, 76, 427, "$497 mr", null], "ndx": [101, 23, 78, "$312 mr", null], "r2k": [2000, 411, 1563, "$44 mr", null]}
