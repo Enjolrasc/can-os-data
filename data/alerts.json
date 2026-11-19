@@ -901,16 +901,6 @@
  },
  {
   "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 05:43",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": -5.33,
-  "fiyat": 80.848,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
   "zaman": "19.11.2026 14:19",
   "grup": "emtia",
   "sembol": "GC=F",
@@ -968,26 +958,6 @@
   "degisim": -3.62,
   "fiyat": 21.185,
   "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "CC=F",
-  "ad": "Kakao",
-  "degisim": 3.6,
-  "fiyat": 5182,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": -2.76,
-  "fiyat": 20.43,
-  "esik": 2.0
  },
  {
   "gun_tarihi": "2026-11-19",
@@ -1138,5 +1108,55 @@
   "degisim": -5.51,
   "fiyat": 61.71,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-19",
+  "zaman": "19.11.2026 19:06",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": -3.34,
+  "fiyat": 16.625,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-19",
+  "zaman": "19.11.2026 19:06",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": 4.46,
+  "fiyat": 84.45,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-19",
+  "zaman": "19.11.2026 19:06",
+  "grup": "emtia",
+  "sembol": "CC=F",
+  "ad": "Kakao",
+  "degisim": 3.78,
+  "fiyat": 5191,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-19",
+  "zaman": "19.11.2026 19:06",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": -3.78,
+  "fiyat": 10.45,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-19",
+  "zaman": "19.11.2026 19:06",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 3.53,
+  "fiyat": 21.12,
+  "esik": 2.0
  }
 ]
