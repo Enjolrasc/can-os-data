@@ -1111,7 +1111,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "emtia",
   "sembol": "PA=F",
   "ad": "Paladyum (ons $)",
@@ -1121,7 +1121,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "emtia",
   "sembol": "NG=F",
   "ad": "Doğalgaz (ABD)",
@@ -1131,7 +1131,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "emtia",
   "sembol": "TTF=F",
   "ad": "Doğalgaz (TTF)",
@@ -1141,7 +1141,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "emtia",
   "sembol": "CC=F",
   "ad": "Kakao",
@@ -1151,7 +1151,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "emtia",
   "sembol": "SB=F",
   "ad": "Şeker",
@@ -1161,7 +1161,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -1171,7 +1171,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "endeks",
   "sembol": "^NDX",
   "ad": "Nasdaq-100",
@@ -1181,7 +1181,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "endeks",
   "sembol": "^RUT",
   "ad": "Russell 2000",
@@ -1191,7 +1191,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "endeks",
   "sembol": "^DJI",
   "ad": "Dow Jones",
@@ -1201,7 +1201,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
@@ -1211,7 +1211,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "ulke_etf",
   "sembol": "EIS",
   "ad": "EIS",
@@ -1221,7 +1221,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "ulke_etf",
   "sembol": "EWT",
   "ad": "EWT",
@@ -1231,7 +1231,7 @@
  },
  {
   "gun_tarihi": "2026-11-20",
-  "zaman": "20.11.2026 05:08",
+  "zaman": "20.11.2026 05:29",
   "grup": "tema_etf",
   "sembol": "SILJ",
   "ad": "SILJ",
