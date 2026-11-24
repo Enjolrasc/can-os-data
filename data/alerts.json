@@ -3393,16 +3393,6 @@
   "gun_tarihi": "2026-11-24",
   "zaman": "24.11.2026 08:25",
   "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": 5.25,
-  "fiyat": 38.91,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "emtia",
   "sembol": "BZ=F",
   "ad": "Brent petrol",
   "degisim": -4.0,
@@ -3417,16 +3407,6 @@
   "ad": "WTI petrol",
   "degisim": -4.49,
   "fiyat": 133.36,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "emtia",
-  "sembol": "NG=F",
-  "ad": "Doğalgaz (ABD)",
-  "degisim": -6.63,
-  "fiyat": 9.86,
   "esik": 3.0
  },
  {
@@ -3513,30 +3493,10 @@
   "gun_tarihi": "2026-11-24",
   "zaman": "24.11.2026 08:25",
   "grup": "abd_hisse",
-  "sembol": "MU",
-  "ad": "Micron",
-  "degisim": 19.04,
-  "fiyat": 707.7,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "abd_hisse",
   "sembol": "APP",
   "ad": "AppLovin",
   "degisim": 7.36,
   "fiyat": 373.92,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "abd_hisse",
-  "sembol": "NVDA",
-  "ad": "Nvidia",
-  "degisim": 31.48,
-  "fiyat": 165.05,
   "esik": 6.0
  },
  {
@@ -3587,16 +3547,6 @@
   "ad": "EWN",
   "degisim": 4.25,
   "fiyat": 60.82,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "ulke_etf",
-  "sembol": "EWT",
-  "ad": "EWT",
-  "degisim": 17.98,
-  "fiyat": 88.21,
   "esik": 4.0
  },
  {
@@ -3763,16 +3713,6 @@
   "gun_tarihi": "2026-11-24",
   "zaman": "24.11.2026 08:25",
   "grup": "tema_etf",
-  "sembol": "WTAI",
-  "ad": "WTAI",
-  "degisim": 12.55,
-  "fiyat": 31.38,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
   "sembol": "CHAT",
   "ad": "CHAT",
   "degisim": 9.97,
@@ -3787,56 +3727,6 @@
   "ad": "AIQ",
   "degisim": 7.57,
   "fiyat": 54.88,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
-  "sembol": "FTXL",
-  "ad": "FTXL",
-  "degisim": 13.37,
-  "fiyat": 190.74,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
-  "sembol": "SOXX",
-  "ad": "SOXX",
-  "degisim": 13.63,
-  "fiyat": 140.22,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
-  "sembol": "PSI",
-  "ad": "PSI",
-  "degisim": 13.35,
-  "fiyat": 106.88,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
-  "sembol": "SOXQ",
-  "ad": "SOXQ",
-  "degisim": 13.92,
-  "fiyat": 75.45,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
-  "sembol": "SMH",
-  "ad": "SMH",
-  "degisim": 15.03,
-  "fiyat": 460.18,
   "esik": 5.0
  },
  {
@@ -4083,16 +3973,6 @@
   "gun_tarihi": "2026-11-24",
   "zaman": "24.11.2026 08:25",
   "grup": "tema_etf",
-  "sembol": "BITQ",
-  "ad": "BITQ",
-  "degisim": 8.85,
-  "fiyat": 15.62,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-24",
-  "zaman": "24.11.2026 08:25",
-  "grup": "tema_etf",
   "sembol": "FBTC",
   "ad": "FBTC",
   "degisim": 5.08,
@@ -4147,6 +4027,166 @@
   "ad": "SPUS",
   "degisim": 6.12,
   "fiyat": 54.78,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": -4.84,
+  "fiyat": 37.025,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": -3.98,
+  "fiyat": 11.5413,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": -4.1,
+  "fiyat": 15.555,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": 5.78,
+  "fiyat": 10.43,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "emtia",
+  "sembol": "HG=F",
+  "ad": "Bakır (libre $)",
+  "degisim": -4.24,
+  "fiyat": 32.375,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "abd_hisse",
+  "sembol": "MU",
+  "ad": "Micron",
+  "degisim": -10.09,
+  "fiyat": 636.3,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "abd_hisse",
+  "sembol": "NVDA",
+  "ad": "Nvidia",
+  "degisim": -6.96,
+  "fiyat": 153.56,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "ulke_etf",
+  "sembol": "EWT",
+  "ad": "EWT",
+  "degisim": -4.08,
+  "fiyat": 84.61,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "WTAI",
+  "ad": "WTAI",
+  "degisim": -5.23,
+  "fiyat": 29.74,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "FTXL",
+  "ad": "FTXL",
+  "degisim": -7.07,
+  "fiyat": 177.2492,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "SOXX",
+  "ad": "SOXX",
+  "degisim": -7.57,
+  "fiyat": 129.61,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "PSI",
+  "ad": "PSI",
+  "degisim": -9.51,
+  "fiyat": 96.715,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "SOXQ",
+  "ad": "SOXQ",
+  "degisim": -7.17,
+  "fiyat": 70.04,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "SMH",
+  "ad": "SMH",
+  "degisim": -6.74,
+  "fiyat": 429.155,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "XBI",
+  "ad": "XBI",
+  "degisim": 6.26,
+  "fiyat": 156.375,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-24",
+  "zaman": "24.11.2026 21:25",
+  "grup": "tema_etf",
+  "sembol": "BITQ",
+  "ad": "BITQ",
+  "degisim": -5.19,
+  "fiyat": 14.81,
   "esik": 5.0
  }
 ]
