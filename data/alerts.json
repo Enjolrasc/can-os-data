@@ -3972,16 +3972,6 @@
  {
   "gun_tarihi": "2026-11-25",
   "zaman": "25.11.2026 18:22",
-  "grup": "emtia",
-  "sembol": "SB=F",
-  "ad": "Şeker",
-  "degisim": 3.1,
-  "fiyat": 11.0113,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
   "grup": "endeks",
   "sembol": "^GSPC",
   "ad": "S&P 500",
@@ -3992,61 +3982,11 @@
  {
   "gun_tarihi": "2026-11-25",
   "zaman": "25.11.2026 18:22",
-  "grup": "endeks",
-  "sembol": "^IXIC",
-  "ad": "Nasdaq Composite",
-  "degisim": -3.77,
-  "fiyat": 22838.55,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
-  "grup": "endeks",
-  "sembol": "^NDX",
-  "ad": "Nasdaq-100",
-  "degisim": -4.01,
-  "fiyat": 25164.07,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 15.67,
-  "fiyat": 25.7825,
-  "esik": 2.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
   "grup": "abd_hisse",
   "sembol": "SMR",
   "ad": "NuScale Power",
   "degisim": -7.89,
   "fiyat": 3.0395,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
-  "grup": "abd_hisse",
-  "sembol": "MU",
-  "ad": "Micron",
-  "degisim": -10.16,
-  "fiyat": 565.81,
-  "esik": 6.0
- },
- {
-  "gun_tarihi": "2026-11-25",
-  "zaman": "25.11.2026 18:22",
-  "grup": "abd_hisse",
-  "sembol": "NVDA",
-  "ad": "Nvidia",
-  "degisim": -7.07,
-  "fiyat": 144.4,
   "esik": 6.0
  },
  {
@@ -4268,5 +4208,75 @@
   "degisim": -6.24,
   "fiyat": 13.83,
   "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -3.79,
+  "fiyat": 88,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": 3.28,
+  "fiyat": 11.03,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "endeks",
+  "sembol": "^IXIC",
+  "ad": "Nasdaq Composite",
+  "degisim": -2.26,
+  "fiyat": 23196.89,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "endeks",
+  "sembol": "^NDX",
+  "ad": "Nasdaq-100",
+  "degisim": -2.47,
+  "fiyat": 25566.11,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 9.91,
+  "fiyat": 24.5,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "abd_hisse",
+  "sembol": "MU",
+  "ad": "Micron",
+  "degisim": -9.16,
+  "fiyat": 572.1001,
+  "esik": 6.0
+ },
+ {
+  "gun_tarihi": "2026-11-25",
+  "zaman": "25.11.2026 20:39",
+  "grup": "abd_hisse",
+  "sembol": "NVDA",
+  "ad": "Nvidia",
+  "degisim": -7.3,
+  "fiyat": 144.03,
+  "esik": 6.0
  }
 ]
