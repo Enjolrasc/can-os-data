@@ -3948,5 +3948,85 @@
   "degisim": 4.44,
   "fiyat": 23.28,
   "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "emtia",
+  "sembol": "SI=F",
+  "ad": "Gümüş (ons $)",
+  "degisim": 6.02,
+  "fiyat": 39.335,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "emtia",
+  "sembol": "PL=F",
+  "ad": "Platin (ons $)",
+  "degisim": 3.46,
+  "fiyat": 11.96,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "emtia",
+  "sembol": "PA=F",
+  "ad": "Paladyum (ons $)",
+  "degisim": 3.76,
+  "fiyat": 16.29,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "emtia",
+  "sembol": "NG=F",
+  "ad": "Doğalgaz (ABD)",
+  "degisim": -4.47,
+  "fiyat": 9.8399,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "ulke_etf",
+  "sembol": "EWZ",
+  "ad": "EWZ",
+  "degisim": 10.96,
+  "fiyat": 33.465,
+  "esik": 4.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "tema_etf",
+  "sembol": "SIVR",
+  "ad": "SIVR",
+  "degisim": 6.33,
+  "fiyat": 41.52,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "tema_etf",
+  "sembol": "SLV",
+  "ad": "SLV",
+  "degisim": 6.39,
+  "fiyat": 39.47,
+  "esik": 5.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 17:49",
+  "grup": "tema_etf",
+  "sembol": "SILJ",
+  "ad": "SILJ",
+  "degisim": 5.32,
+  "fiyat": 20.97,
+  "esik": 5.0
  }
 ]
