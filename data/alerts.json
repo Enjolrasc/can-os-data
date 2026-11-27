@@ -1,275 +1,5 @@
 [
  {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 01:51",
-  "grup": "emtia",
-  "sembol": "ALI=F",
-  "ad": "Alüminyum",
-  "degisim": -4.63,
-  "fiyat": 2862.5,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "GC=F",
-  "ad": "Altın (ons $)",
-  "degisim": -3.19,
-  "fiyat": 341.25,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "SI=F",
-  "ad": "Gümüş (ons $)",
-  "degisim": -4.58,
-  "fiyat": 40.685,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "PL=F",
-  "ad": "Platin (ons $)",
-  "degisim": -3.73,
-  "fiyat": 12.4,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "NG=F",
-  "ad": "Doğalgaz (ABD)",
-  "degisim": 5.78,
-  "fiyat": 10.62,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "HG=F",
-  "ad": "Bakır (libre $)",
-  "degisim": -5.22,
-  "fiyat": 34.11,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "emtia",
-  "sembol": "ZW=F",
-  "ad": "Buğday",
-  "degisim": -3.62,
-  "fiyat": 21.185,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "ulke_etf",
-  "sembol": "EPU",
-  "ad": "EPU",
-  "degisim": -4.42,
-  "fiyat": 75.03,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "ulke_etf",
-  "sembol": "EZA",
-  "ad": "EZA",
-  "degisim": -5.51,
-  "fiyat": 59.53,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "ulke_etf",
-  "sembol": "EWW",
-  "ad": "EWW",
-  "degisim": -4.16,
-  "fiyat": 73.64,
-  "esik": 4.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "SGDM",
-  "ad": "SGDM",
-  "degisim": -5.76,
-  "fiyat": 63.17,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "RING",
-  "ad": "RING",
-  "degisim": -6.34,
-  "fiyat": 64.98,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "GDX",
-  "ad": "GDX",
-  "degisim": -5.92,
-  "fiyat": 74.86,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "GDXJ",
-  "ad": "GDXJ",
-  "degisim": -6.01,
-  "fiyat": 90.08,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "GOAU",
-  "ad": "GOAU",
-  "degisim": -5.24,
-  "fiyat": 37.21,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "SIL",
-  "ad": "SIL",
-  "degisim": -5.84,
-  "fiyat": 66.69,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "SILJ",
-  "ad": "SILJ",
-  "degisim": -5.12,
-  "fiyat": 20.855,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "WCBR",
-  "ad": "WCBR",
-  "degisim": 7.94,
-  "fiyat": 44.45,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "HACK",
-  "ad": "HACK",
-  "degisim": 6.19,
-  "fiyat": 119.68,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "IHAK",
-  "ad": "IHAK",
-  "degisim": 6.05,
-  "fiyat": 70.17,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "BUG",
-  "ad": "BUG",
-  "degisim": 7.7,
-  "fiyat": 46.56,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 14:19",
-  "grup": "tema_etf",
-  "sembol": "COPX",
-  "ad": "COPX",
-  "degisim": -5.51,
-  "fiyat": 61.71,
-  "esik": 5.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 19:06",
-  "grup": "emtia",
-  "sembol": "PA=F",
-  "ad": "Paladyum (ons $)",
-  "degisim": -3.34,
-  "fiyat": 16.625,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 19:06",
-  "grup": "emtia",
-  "sembol": "TTF=F",
-  "ad": "Doğalgaz (TTF)",
-  "degisim": 4.46,
-  "fiyat": 84.45,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 19:06",
-  "grup": "emtia",
-  "sembol": "CC=F",
-  "ad": "Kakao",
-  "degisim": 3.78,
-  "fiyat": 5191,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 19:06",
-  "grup": "emtia",
-  "sembol": "SB=F",
-  "ad": "Şeker",
-  "degisim": -3.78,
-  "fiyat": 10.45,
-  "esik": 3.0
- },
- {
-  "gun_tarihi": "2026-11-19",
-  "zaman": "19.11.2026 19:06",
-  "grup": "endeks",
-  "sembol": "^VIX",
-  "ad": "VIX (korku endeksi)",
-  "degisim": 3.53,
-  "fiyat": 21.12,
-  "esik": 2.0
- },
- {
   "gun_tarihi": "2026-11-20",
   "zaman": "20.11.2026 05:29",
   "grup": "emtia",
@@ -4172,6 +3902,46 @@
  {
   "gun_tarihi": "2026-11-26",
   "zaman": "26.11.2026 20:22",
+  "grup": "endeks",
+  "sembol": "^VIX",
+  "ad": "VIX (korku endeksi)",
+  "degisim": 4.44,
+  "fiyat": 23.28,
+  "esik": 2.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 04:04",
+  "grup": "emtia",
+  "sembol": "CL=F",
+  "ad": "WTI petrol",
+  "degisim": 3.29,
+  "fiyat": 139.89,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 04:04",
+  "grup": "emtia",
+  "sembol": "TTF=F",
+  "ad": "Doğalgaz (TTF)",
+  "degisim": -4.82,
+  "fiyat": 87.06,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 04:04",
+  "grup": "emtia",
+  "sembol": "SB=F",
+  "ad": "Şeker",
+  "degisim": 3.65,
+  "fiyat": 11.07,
+  "esik": 3.0
+ },
+ {
+  "gun_tarihi": "2026-11-27",
+  "zaman": "27.11.2026 04:04",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
