@@ -3851,7 +3851,7 @@
  },
  {
   "gun_tarihi": "2026-11-28",
-  "zaman": "28.11.2026 06:26",
+  "zaman": "28.11.2026 16:58",
   "grup": "emtia",
   "sembol": "CL=F",
   "ad": "WTI petrol",
@@ -3861,7 +3861,7 @@
  },
  {
   "gun_tarihi": "2026-11-28",
-  "zaman": "28.11.2026 06:26",
+  "zaman": "28.11.2026 16:58",
   "grup": "emtia",
   "sembol": "SB=F",
   "ad": "Şeker",
@@ -3871,7 +3871,7 @@
  },
  {
   "gun_tarihi": "2026-11-28",
-  "zaman": "28.11.2026 06:26",
+  "zaman": "28.11.2026 16:58",
   "grup": "endeks",
   "sembol": "^IXIC",
   "ad": "Nasdaq Composite",
@@ -3881,7 +3881,7 @@
  },
  {
   "gun_tarihi": "2026-11-28",
-  "zaman": "28.11.2026 06:26",
+  "zaman": "28.11.2026 16:58",
   "grup": "endeks",
   "sembol": "^NDX",
   "ad": "Nasdaq-100",
@@ -3891,7 +3891,7 @@
  },
  {
   "gun_tarihi": "2026-11-28",
-  "zaman": "28.11.2026 06:26",
+  "zaman": "28.11.2026 16:58",
   "grup": "endeks",
   "sembol": "^VIX",
   "ad": "VIX (korku endeksi)",
